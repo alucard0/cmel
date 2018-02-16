@@ -7,6 +7,91 @@ body {
   font-size: 20px;
 }
 
+
+/*FONTS*/
+
+/*Sans*/
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-Black.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-BlackItalic.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-BoldSc.otf");
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-LightSc.otf");
+  font-weight: 300;
+  font-style: italic;
+  font-variant: small-caps;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-Regular.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-RegularItalic.otf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSans";
+  src: url("fonts/IndivisaTextSans-RegularSc.otf");
+  
+  font-variant: small-caps;
+}
+
+/*Serif*/
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-Regular.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-RegularItalic.otf");
+  font-weight: 500;
+  font-style: italic;
+}
 /*Colores*/
 :root {
     --azul: #3F54FF;
@@ -99,16 +184,14 @@ section a.scroll span, header a.scroll span{
 /*Fin General*/
 /*Menu*/
 nav.navbar.navbar-light{
-  background: #2bc4ed;
-background: -moz-linear-gradient(-45deg, #2bc4ed 16%, #d7f63f 100%);
-background: -webkit-linear-gradient(-45deg, #2bc4ed 16%,#d7f63f 100%);
-background: linear-gradient(135deg, #2bc4ed 16%,#d7f63f 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bc4ed', endColorstr='#d7f63f',GradientType=1 );
+  background: #c5c5c5cf;
   text-transform: uppercase;
   font-weight: 700;
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link{
   color: #fff;
+  font-weight: 900;
+  font-family: IndivisaTextSans, sans-serif;
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.active{
   text-decoration: underline;
@@ -131,10 +214,11 @@ nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link:hover{
 
 /*Contenido*/
 section#home{
-  margin-top: 56px;
+  color: #fff;
 }
-section#welcome{
-  background-image: url('../images/home/IALULanding_Back_01.png');
+section#home{
+  
+  background-image: url('../images/home/CEMEL_Back01.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -142,11 +226,44 @@ section#welcome{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 0 40px;
+  text-align: right;
 }
-section#welcome p.dear,section#program span.mayores,
-section#program p.day,section#alternatingProgram p.subtitle,
-section#alternatingProgram p.title span.mayores, section#registrationForm p.title span.mayores{
-  color: var(--verdegradiente);
+section#home h1{
+  font-family: IndivisaTextSerif, serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-style: italic;
+  margin-top: 30px;
+}
+section#home h2{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 45px;
+  margin-top: 125px;
+}
+section#home p{
+  font-family: IndivisaTextSerif, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+section#home p.fecha{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+  margin-top: 125px;
+}
+section#home .row{
+  padding-top: 100px;
+}
+
+section#welcome p.dear,section#comoParticipar,
+section#registrationForm{
+  color: #001288;
 }
 section#welcome p.dear{
   font-size: 5em;
@@ -155,52 +272,99 @@ section#welcome p.dear{
   padding-top: 50px; 
 }
 section#welcome div.welcomeText{
-  padding: 50px 50px 100px 50px;
-  color: #fff;
-  background: #0000007d;
+  padding: 49px 50px 0px 50px;
+  color: #000;
   margin: 50px 40px;
+  border-left: 2px solid #000;
 }
-section#welcome p.namePerson{
-  line-height: 20px;
-  color: var(--naranja);
-  font-size: 25px;
-}
+
 section#welcome p.namePerson span.position{
   color: #fff;
   font-size: 20px;
 }
 
-/*Confronting challenges*/
-section#globalChallenges{
-  padding: 100px;
+
+section#ejesTematicos{
+  padding: 60px;
+  background-image: url('../images/home/CEMEL_Back02.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-section#globalChallenges figure figcaption,section#globalChallenges h1.globalTitle,
-section#registrationForm p.title, section#registrationForm p.subtitle,section#registrationForm p.instructions{
-  color: var(--azulagua);
+section#ejesTematicos{
+  color: #fff;
+}
+section#ejesTematicos span.numeroEje{
+  float: left;
+  font-size: 60px;
+  line-height: 55px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+section#ejesTematicos figure{text-align: center;}
+section#ejesTematicos figure figcaption{
+  text-align: center;
+  font-weight: 500;
+}
+
+section#ejesTematicos p.titulo,
+{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+section#ejesTematicos p.titulo{
+    font-size: 50px;
+}
+section#ejesTematicos div.infoTemas p.titulo{
+    font-size: 40px;
+    text-align: right;
 }
 
 
-section#globalChallenges figure figcaption{
-  text-transform: uppercase;
-  font-weight: bold;
+section#comoParticipar{
+  padding: 60px;
 }
-section#globalChallenges h1.globalTitle{
-  font-weight: 100;
-  font-size: 70px;
-  line-height: 70px;
-  margin-bottom: 0;
-  
+section#comoParticipar p.titulo{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 50px;
 }
-section#globalChallenges p.globalSubtitle,section#program p.title,
-p.orangeText,section#alternatingProgram p.title,section#registrationForm p.title span.guion{
-  color: var(--naranja);
+
+section#comoParticipar p span.iniciales{
+  float: left;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 5px 10px;
+  border: 5px solid #001288;
+  border-radius: 50px;
+  margin-right: 15px;
+  margin-top: -10px;
 }
-section#globalChallenges p.globalSubtitle{
-  font-weight: bold;
-  font-size: 50px;
+section#comoParticipar div.opciones{
+  border-left: 1px solid #001288;
 }
+section#comoParticipar figure{
+  text-align: center;
+}
+section#comoParticipar p {
+  font-size: 18px;
+}
+section#comoParticipar p span.iniciales.dosLetras{
+  padding: 5px 22px;
+}
+section#comoParticipar div.opcionesDos{
+  margin-top: 50px;
+}
+
 section#program{
-  background-image: url('../images/home/IALULanding_Back02.png');
+  background-image: url('../images/home/CEMEL_Back03.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -221,12 +385,9 @@ section#program p.title,section#program span.mayores{
 section#program p.subtitle{
   font-size: 50px;
   font-weight: 500;
-  margin-top: -60px;
+  margin-top: -45px;
 }
 
-section#program div.boxMonday{
-  margin-top: 160px;
-}   
 
 
 
@@ -253,73 +414,8 @@ section#program div.endContent{
 }
 
 
-section#registration{
-  padding: 100px;
-}
-section#registration p.title{
-  font-size: 90px;
-  color: #65e233;
-  font-weight: 700;
-}
-section#registration div.bgAzul{
-  background: var(--azulagua);
-}
-section#registration div.feeInfo p.title{
-  font-size: 20px;
-  color: #fff;
-}
-section#registration div.feeInfo{
-  color: #fff;
-  padding: 30px;
-}
-section#registration div.feeInfo p.content{
-  font-weight: 100;
-}
-section#registration div.moreInfo{
-  margin-top: 40px;
-}
-section#registration div.moreInfo p.orangeText{
-  font-weight:700;
-}
-section#registration div.boxCurrency{
-  margin-top: 30px;
-}
-section#registration ul.infoPay{
-  margin-left: 20px;
-}
-section#alternatingProgram{
-  background-image: url('../images/home/IALULanding_Back04.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #fff;
-}
-section#alternatingProgram{
-  padding: 100px;
-}
-section#alternatingProgram p.title{
-  font-size: 90px;
-  font-weight: 700;
-  line-height: 80px;
-}
-section#alternatingProgram p.subtitle{
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
-}
-section#alternatingProgram div.duringBox{
-    padding-right: 19%;
-    padding-left: 2%;
-}
-section#alternatingProgram div.visitUniBox{
-  margin-top: 50px;
-    padding-left: 9%;
-    margin-left: 27%;
-}
+
+
 section#registrationForm{
   padding: 100px;
 }
@@ -473,10 +569,7 @@ footer div ul.listaEscuelas li {
   section#globalChallenges p.description {
     font-size: 16px;
   }
-  section#registration div.feeInfo {
-    padding: 20px;
-  }
-
+  
 
   section#program {
     padding: 10px;
@@ -487,48 +580,15 @@ footer div ul.listaEscuelas li {
   section#program p.subtitle {
     margin-top: -50px;
   }
-  section#program div.boxMonday {
-    margin-top: 0;
-    font-size: 30px;
-  }
+ 
   section#program div.content {
     font-size: 20px;
   }
   section#program div.endContent div.col-sm-6:nth-child(2){
     margin-top: 30px;
   }
-  section#registration {
-    padding: 10px;
-  }
-  section#registration p.title {
-    font-size: 50px;s
-  }
-  section#registration figure img{
-    float: none !important;
-    width: 40%!important;
-  }
-  section#registration figure{
-    text-align: center;
-  }
 
-  section#alternatingProgram {
-    padding: 10px;
-  }
-  section#alternatingProgram p.title {
-      font-size: 50px;
-  }
-  section#alternatingProgram p.subtitle {
-    font-size: 40px;
-  }
-  section#alternatingProgram div.duringBox {
-    padding-right: 0;
-    padding-left: 2%;
-  }
-  section#alternatingProgram div.visitUniBox {
-    margin-top: 50px;
-    padding-left: 0;
-    margin-left: 0;
-  }
+
 
   section#registrationForm {
     padding: 10px;
