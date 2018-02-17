@@ -262,22 +262,7 @@
         </div>
       </div>
     </div>
-    <div class="row endContent">
-        <div class="col-sm-6">
-          <p class="orangeBG col-sm-3">Friday, June 22</p>
-          <div class="row content">
-            <div class="col-5 col-sm-3">09:00 12:00</div>
-            <div class="col-7 col-sm-9">IALU Board</div>
-            <div class="col-5 col-sm-3">12:00</div>
-            <div class="col-7 col-sm-9">Visit to universities</div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <p class="text-right orangeText">We highly recommend participants to <span class="font-italic"><strong>arrive to Mexico City on June18.</strong></span></p>
-          <p class="text-right orangeText">The Encuentro will open its registration at 17:00h<br>and the welcome cocktail will be at the hotel.</p>
-          <p class="text-right orangeText">For more information regarding cultural activities and visits to other universities<br>around the country please go to the activities section.</p>
-        </div>
-    </div>
+
 </section>
 
 

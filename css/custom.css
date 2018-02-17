@@ -409,9 +409,7 @@ section#program div.content{
     font-size: 18px;
     font-weight
 }
-section#program div.endContent{
-  margin-top: 30px;
-}
+
 
 
 
@@ -583,9 +581,6 @@ footer div ul.listaEscuelas li {
  
   section#program div.content {
     font-size: 20px;
-  }
-  section#program div.endContent div.col-sm-6:nth-child(2){
-    margin-top: 30px;
   }
 
 
