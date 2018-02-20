@@ -4,72 +4,44 @@
 *	Documento: Footer para las páginas
 */
 ?>
-	<footer class="container-fluid">
-		<div class="row bgGray">
-			<div class="col-sm-2 col-xs-6">
-				<figure><a href="http://redlasalle.mx/" target="_blank"><img src="images/footer/RED_LA_SALLE.png" alt="La Salle red de universidades" class="img-responsive"></a></figure>
+	<footer class="container-fluid bannerFooter">
+		<div class="row">
+			<div class="col-6 col-sm-3">
+				<p class="hashtag">#300LaSalle</p>
 			</div>
-			<div class="col-sm-2 col-xs-6">
-				<figure><img src="images/footer/RED_LA_SALLE_2.png" alt="Universidad La Salle" class="img-responsive"></figure>
+			<div class="col-6 col-sm-3">
+				<figure><img src="images/footer/CEMEL_SignumFidei.png" alt=""></figure>
 			</div>
-			<div class="col-sm-8 redesSociales">
-				<figure>
-					<a href="https://www.facebook.com/LaSalleMX" target="_blank"><img src="images/footer/FACEBOOK.png" alt="Síguenos en Facebook" class="img-responsive"></a>
-				</figure>
-				<figure>
-					<a href="https://twitter.com/lasalle_mx" target="_blank"><img src="images/footer/TWITTER.png" alt="Síguenos en Twitter" class="img-responsive"></a>
-				</figure>
-				<figure>
-					<a href="https://www.instagram.com/lasalle_mx/" target="_blank"><img src="images/footer/INSTAGRAM.png" alt="Síguenos en Instagram" class="img-responsive"></a>
-				</figure>
-				<figure>
-					<a href="https://www.linkedin.com/school/24227?pathWildcard=24227" target="_blank"><img src="images/footer/LINKEDIN.png" alt="Síguenos en Linkedin" class="img-responsive"></a>
-				</figure>
-				<figure>
-					<a href="https://es.foursquare.com/v/universidad-la-salle/4b8ffab0f964a520c16d33e3?tipsPage=2" target="_blank"><img src="images/footer/SWARM.png" alt="Comparte tu experiencia en Foursquare" class="img-responsive"></a>
-				</figure>
-				<figure>
-					<a href="https://es.foursquare.com/v/universidad-la-salle/4b8ffab0f964a520c16d33e3?tipsPage=2" target="_blank"><img src="images/footer/FOURSQUA.png" alt="Comparte tu experiencia en Foursquare" class="img-responsive"></a>
-				</figure>
-				<figure>
-					<a href="https://www.snapchat.com/add/lasalleMX" target="_blank"><img src="images/footer/SNAPCHAT.png" alt="" class="img-responsive"></a>
-				</figure>
-				<figure>
-					<a href="https://www.youtube.com/user/LaSalleMX" target="_blank"><img src="images/footer/YOUTUBE.png" alt="Síguenos en Youtube" class="img-responsive"></a>
-				</figure>
-				<p>Benjamín Franklin 45 Col. Condesa. Del. Cuauhtémoc Ciudad de México, 06140. <span>(+52) 5278-9500</span></p>
+			<div class="col-6 col-sm-3">
+				<figure><img src="images/footer/Footer_Logo_Imagotipo.png" alt=""></figure>
+			</div>
+			<div class="col-6 col-sm-3">
+				<figure><img src="images/footer/redlasalle.png" alt=""></figure>
+			</div>
+			<div class="col-12">
+				<p>Benjamín Franklin 45, Col. Condesa, C.P. 06140, México, Ciudad de México Tel. +52 1 5278-9500</p>
 			</div>
 		</div>
-		<div class="container-fluid">
-			<div class="row bgLigthGray justify-content-center">
-				<p>Profesionales con <span class="textoValor">Valor</span></p>
+		<div class="row justify-content-center legales">
+			<div class="col col-sm-6 col-xs-6">
+				<p class="aviso">Aviso de privacidad</p>
 			</div>
-		</div>
-		<div class="container-fluid bgWhite">
-			<div class="row">
-				<div class="col col-sm-6 col-xs-6">
-					<p class="aviso">Aviso de privacidad</p>
-				</div>
-				<div class="col col-sm-6 col-xs-6">
-					<p class="terminos">Términos y condiciones</p>
-				</div>
-
-				<div class="col col-sm-12 col-xs-12 resumenAviso">
-					<p>
+			<div class="col col-sm-6 col-xs-6">
+				<p class="terminos">Términos y condiciones</p>
+			</div>
+			<div class="col col-sm-12 col-xs-12 resumenAviso">
+				<p>
 					La Universidad la Salle, A.C., ubicada en Benjamín Franklin 45 Col. Condesa, C.P. 06140, México Ciudad de México, le informa que sus datos personales y datos personales sensibles, se utilizarán para identificación, operación, administración y aquellos tratamientos definidos en la Política de Privacidad, que sean necesarios para la prestación de los servicios académicos y administrativos en el Sistema Educativo de las Universidades La Salle.</p>
 
-					<p>El ejercicio de los derechos de acceso, rectificación, cancelación, oposición, limitación de uso o la revocación del consentimiento, podrá solicitarse por escrito en la Subdirección de Tecnologías de Información, área de Seguridad de la Información o al correo electrónico: privacidad@ulsa.mx.</p>
+					<p>El ejercicio de los derechos de acceso, rectificación, cancelación, oposición, limitación de uso o la revocación del consentimiento, podrá solicitarse por escrito en la Subdirección de Tecnologías de Información, área de Seguridad de la Información o al correo electrónico: <a href="mailto:privacidad@ulsa.mx">privacidad@ulsa.mx</a>.</p>
 
 					<p>La Política de Privacidad y los cambios en el presente aviso se publican en la página <a href="http://delasalle.ulsa.mx/privacidad">http://delasalle.ulsa.mx/privacidad</a>.</p>
 
 					<p>Si el titular proporciona sus datos personales significa que ha leído, entendido y aceptado los términos antes expuestos. <a href="http://www.lasalle.mx/privacidad" target="_blank"> Leer más</a></p>
-				</div>
-				
-				<div class="col-sm-12 col-xs-12 resumenTerminos">
-					<p>El uso por parte de cualquier persona (en adelante el USUARIO) del sitio web cuya dirección electrónica es: <a href="www.lasalle.mx"> www.lasalle.mx</a>, así como de los subsitios web que se deriven o estén sustentados en dicho sitio web, o de los cuales también sea titular la Universidad La Salle A. C. (en adelante el SITIO), constituye la aceptación y acuerdo pleno e incondicional por parte del USUARIO con la Universidad La Salle A. C. (en adelante UNIVERSIDAD LA SALLE), en relación a los presentes Términos y Condiciones de Uso del Sitio y subsitios. <a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank">Leer más</a></p>
-				</div>
 			</div>
-		</div>
+			<div class="col-sm-12 col-xs-12 resumenTerminos">
+				<p>El uso por parte de cualquier persona (en adelante el USUARIO) del sitio web cuya dirección electrónica es: <a href="www.lasalle.mx"> www.lasalle.mx</a>, así como de los subsitios web que se deriven o estén sustentados en dicho sitio web, o de los cuales también sea titular la Universidad La Salle A. C. (en adelante el SITIO), constituye la aceptación y acuerdo pleno e incondicional por parte del USUARIO con la Universidad La Salle A. C. (en adelante UNIVERSIDAD LA SALLE), en relación a los presentes Términos y Condiciones de Uso del Sitio y subsitios. <a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank">Leer más</a></p>
+			</div>
 	</footer>
 
 	<!-- Google -->

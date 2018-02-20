@@ -73,7 +73,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
         
@@ -90,10 +90,10 @@
 <!-- Slider -->
 <section id="home" class="container-fluid">
   <div class="row justify-content-center">
-    <div class="col-6">
+    <div class="col-12 col-sm-6">
       <figure><img src="images/home/CEMEL_Logo300.png" alt="300" class="img-fluid"></figure>
     </div>
-    <div class="col-6">
+    <div class="col-12 col-sm-6">
       <h1>Congreso Mundial<br>de Educación Lasaliana</h1>
       <h2>La Educación lasaliana<br>para el S. XXI.</h2>
       <p>La Salle: una vida, un corazón, un compromiso.</p>
@@ -115,7 +115,10 @@
         <p>Los invito a consultar el programa completo, convocatorias, fechas e información del Congreso en la página <a href="www.lasalle.org/CMEL300" target="_blak" rel="noopener">www.lasalle.org/CMEL300</a></p>
         <p>La tarifa de inscripción para participar en el CMEL  es de US $225 por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo. Deberán registrarse a partir del 24 de septiembre en línea. La inscripción cierra el 15 de febrero de 2019.</p>
         <p>Renovemos juntos nuestra Pedagogía Lasaliana, respondamos a los signos de nuestro tiempo, con un mismo corazón, y un solo compromiso: dar razones de esperanza, construyendo, desde la educación, un futuro más justo y fraterno para todos.</p>
-        <p>Indivisa Manent</p>
+        <p class="despedida">
+          Nos vemos en el Congreso<br>Mundial de Educación.
+        </p>
+        <p class="indivisa">Indivisa Manent</p>
       </div>
     </div>
   </div>
@@ -123,13 +126,13 @@
 
 <section id="ejesTematicos" class="container-fluid">
   <div class="row">
-      <div class="col-5">
+      <div class="col-12 col-sm-5">
         <p class="titulo">Ejes temáticos</p>
         <p><span class="numeroEje">1</span>Retos<br>Educativos</p>
         <p><span class="numeroEje">2</span>Asociación Lasallista y<br>Comunidad Educativa</p>
         <p><span class="numeroEje">3</span>La Declaración<br>de la Pedagogía Lasaliana</p>
       </div>
-      <div class="col-7 infoTemas">
+      <div class="col-12 col-sm-7 infoTemas">
         <p class="titulo">¿Qué voy a encontrar<br> en el Congreso?</p>
         <div class="row ">
           <figure class="col">
@@ -159,23 +162,23 @@
 <section id="comoParticipar" class="container-fluid">
   <p class="titulo">¿Cómo puedo<br>participar?</p>
   <div class="row">
-    <div class="col-5">
+    <div class="col-12 col-sm-5">
       <a href="#">
         <figure><img src="images/home/CEMEL_PDF.png" alt="descarga PDF" class="img-fluid"></figure>
       </a>
     </div>
-    <div class="col-7 opciones">
+    <div class="col-12 col-sm-7 opciones">
       <div class="row">
-        <div class="col">
+        <div class="col-6">
           <p><span class="iniciales">Peet</span>Ponencia experiencia<br>educativa transformadora</p>
         </div>
-        <div class="col">
+        <div class="col-6">
           <p><span class="iniciales dosLetras">Pi</span>Ponencias<br>de investigación</p>
         </div>
       </div>
       <div class="row opcionesDos">
-        <div class="col"><p><span class="iniciales">Teet</span>Taller experiencia<br>educativa transformadora</p></div>
-        <div class="col"><p><span class="iniciales">Foto</span>Exposición<br>fotográfica</p></div>
+        <div class="col-6"><p><span class="iniciales">Teet</span>Taller experiencia<br>educativa transformadora</p></div>
+        <div class="col-6"><p><span class="iniciales">Foto</span>Exposición<br>fotográfica</p></div>
       </div>
     </div>
   </div>
@@ -229,36 +232,46 @@
           <div class="col-7 col-sm-9 col-md-7">Oración. Recapitulación del día anterior</div>
           <div class="col-5 col-sm-3 col-md-5">09:15 10:00</div>
           <div class="col-7 col-sm-9 col-md-7">Conferencia Magistral: La Comunidad Educativa y la Asociación</div>
-          <div class="col-5 col-sm-3 col-md-5">11:30 13:00</div>
-          <div class="col-7 col-sm-9 col-md-7">The border: successful cases</div>
-          <div class="col-5 col-sm-3 col-md-5">13:00 14:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Lunch</div>
-          <div class="col-5 col-sm-3 col-md-5">15:00 16:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Presentation</div>
-          <div class="col-5 col-sm-3 col-md-5">17:00 18:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Mass held in the Basílica of Guadalupe</div>
-          <div class="col-5 col-sm-3 col-md-5">19:00 </div>
-          <div class="col-7 col-sm-9 col-md-7">Dinner at the National Museum of Anthropology</div>
+          <div class="col-5 col-sm-3 col-md-5">10:00 10:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Descanso</div>
+          <div class="col-5 col-sm-3 col-md-5">10:30 11:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Mesa de diálogo con expertos</div>
+          <div class="col-5 col-sm-3 col-md-5">11:30 12:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Mesas de Reflexión</div>
+          <div class="col-5 col-sm-3 col-md-5">12:45 14:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Comida</div>
+          <div class="col-5 col-sm-3 col-md-5">14:00 15:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 3 / Presentaciones 3</div>
+          <div class="col-5 col-sm-3 col-md-5">15:00 15:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Descanso</div>
+          <div class="col-5 col-sm-3 col-md-5">15:15 16:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 4 / Presentaciones 4</div>
+          <div class="col-5 col-sm-3 col-md-5">16:15 16:45</div>
+          <div class="col-7 col-sm-9 col-md-7">Foto conmemorativa</div>
+          <div class="col-5 col-sm-3 col-md-5">16:45 17:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Mesa Magistral de Reflexión. Sesión de Preguntas</div>
         </div>
       </div>
       <div class="col-sm-4">
         <p class="day">Día 3</p>
         <p class="date">Viernes, Marzo 16</p>
         <div class="row content">
-          <div class="col-5 col-sm-3 col-md-5">09:00 10:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Presentation</div>
-          <div class="col-5 col-sm-3 col-md-5">10:00 11:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Work by commission</div>
-          <div class="col-5 col-sm-3 col-md-5">11:30 12:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Free time</div>
-          <div class="col-5 col-sm-3 col-md-5">12:00 13:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Summary</div>
-          <div class="col-5 col-sm-3 col-md-5">14:00 15:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Lunch</div>
-          <div class="col-5 col-sm-3 col-md-5">15:30 16:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Assembly</div>
-          <div class="col-5 col-sm-3 col-md-5">16:30 17:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Closing ceremony</div>
+          <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>
+          <div class="col-7 col-sm-9 col-md-7">Oración. Recapitulación del día anterior</div>
+          <div class="col-5 col-sm-3 col-md-5">09:15 10:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Conferencia Magistral: La Declaración de la Pedagogía lasallista</div>
+          <div class="col-5 col-sm-3 col-md-5">10:00 10:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Descanso</div>
+          <div class="col-5 col-sm-3 col-md-5">10:30 11:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Mesas de diálogo con expertos</div>
+          <div class="col-5 col-sm-3 col-md-5">11:30 12:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Mesas de Reflexión por Regiones, Distritos, Sectores u Obra</div>
+          <div class="col-5 col-sm-3 col-md-5">12:30 13:30</div>
+          <div class="col-7 col-sm-9 col-md-7">Eucaristía</div>
+          <div class="col-5 col-sm-3 col-md-5">13:30 14:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Clausura - Evento Artístico</div>
+          <div class="col-5 col-sm-3 col-md-5">14:00</div>
+          <div class="col-7 col-sm-9 col-md-7">Comida</div>
         </div>
       </div>
     </div>
@@ -268,147 +281,22 @@
 
 
 <section id="registrationForm" class="container-fluid">
-  <p class="text-left title">Registration<br><span class="guion">-</span> Form <span class="mayores">>>>></span></p>
-  <p class="text-right subtitle">To complete your registration to XII Encuentro IALU,<br>please fill in the following form. 
-  </p>
-  <p class="text-right instructions">You should write using lowercase and capital letters.</p>
-  <p class="text-right instructions">Your name and institution will appear in your badge <br>as they are written in the registration.</p>
-  <p class="textletf instructions">*Mandatory fields to fill in</p>
+  <p class="text-left title">Registro</p>
 
   <form>
     <div class="form-row">
       <div class="col-md-6">
-        <!-- Info Personal -->
-        <div class="form-row">
-          <div class="form-group col-md-1">
-            <figure><img src="images/home/LandingPage-01.png" alt=""></figure>
-          </div>
-           <div class="form-group col-md-4">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Prefix">
-          </div>
-          <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Name">*
-          </div>
-          <div class="form-group col-md-4">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Last names">*
-          </div>
+        <div class="form-group col-md-12">
+            <input type="text" class="form-control" id="cmpNombre" name="cmpNombre" placeholder="Nombre">
         </div>
-        <div class="form-row">
-          <div class="form-group col-md-1">
-            <figure><img src="images/home/LandingPage-02.png" alt=""></figure>
-          </div>
-          <div class="form-group col-md-8">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Institution/Organization">*
-          </div>
-          <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Position">*
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-1">
-            <figure><img src="images/home/LandingPage-03.png" alt=""></figure>
-          </div>
-          <div class="form-group col-md-11">
-             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">*
-           </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-sm-6">
-            <select id="inputState" class="form-control">
-              <option selected>Gender</option>
-              <option>Female</option>
-              <option>Male</option>
-            </select>
-          </div>
-          <div class="form-group col-sm-6">
-            <select id="inputState" class="form-control">
-              <option selected>Jacket size</option>
-              <option>S</option>
-              <option>M</option>
-              <option>L</option>
-            </select>
-          </div>
+        <div class="form-group col-md-12">
+             <input type="email" class="form-control" id="cmpMail" name="cmpMail" placeholder="e-mail">
         </div>
       </div>
-
-
       <div class="col-md-6">
-        <div class="form-row d-flex justify-content-end">
-          <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
-          </div>
-          <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone">*
-          </div>
-        </div>
-
-        <!-- Telefonos de contacto -->
-        <div class="form-row d-flex justify-content-end">
-          <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
-          </div>
-          <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Telephone">*
-          </div>
-        </div>
-        <div class="form-group">
-           <input type="text" class="form-control" id="inputAddress2" placeholder="Contact in case of emergency">*
-        </div>
-
-        <div class="form-row">
-          <div class="form-group col-sm-3">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Country code">
-          </div>
-          <div class="form-group col-sm-9">
-            <input type="tel" class="form-control" id="inputAddress2" placeholder="Telephone in case of emergency">*
-          </div>
-        </div>  
+        <button type="button" class="btn btn-primary btn-lg">Submit</button>
       </div>
-
     </div>
-
-        <!-- Informacion de vivienda -->
-        <div class="form-row">
-          <div class="form-goup col-md-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Country (full name)">*
-          </div>
-          <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="City">
-          </div>
-          <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="State/Province">*
-          </div>
-          <div class="form-group col-sm-3">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Postal Code">*
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-12">
-              <input type="text" class="form-control" id="inputAddress" placeholder="Address">*
-          </div>
-          <div class="form-group col-md-12">
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2">
-          </div>
-        </div>
-
-      <!-- Redes Sociales-->
-      <div class="form-row">
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Twitter">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="LinkedIn">
-          </div>
-      </div>
-
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">If you have any special requirements, allergies,
-vegetariano diet, vegan diet, etc.; or if you need access assistance please write it down.</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        
-    </div>
-
-    <button type="button" class="btn btn-primary btn-lg">Submit</button>
   </form>
 
 </section>

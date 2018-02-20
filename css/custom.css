@@ -1,12 +1,3 @@
-/*General*/
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Roboto', serif;
-  font-size: 20px;
-}
-
 
 /*FONTS*/
 
@@ -25,19 +16,19 @@ body {
 @font-face {
   font-family: "IndivisaTextSans";
   src: url("fonts/IndivisaTextSans-Bold.otf");
-  font-weight: bold;
+  font-weight: 700;
+  font-style: normal;
 }
 @font-face {
   font-family: "IndivisaTextSans";
   src: url("fonts/IndivisaTextSans-BoldItalic.otf");
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
   font-family: "IndivisaTextSans";
   src: url("fonts/IndivisaTextSans-BoldSc.otf");
-  font-weight: bold;
   font-variant: small-caps;
 }
 
@@ -56,8 +47,6 @@ body {
 @font-face {
   font-family: "IndivisaTextSans";
   src: url("fonts/IndivisaTextSans-LightSc.otf");
-  font-weight: 300;
-  font-style: italic;
   font-variant: small-caps;
 }
 @font-face {
@@ -77,10 +66,57 @@ body {
   font-family: "IndivisaTextSans";
   src: url("fonts/IndivisaTextSans-RegularSc.otf");
   
-  font-variant: small-caps;
 }
 
 /*Serif*/
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-Black.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-BlackItalic.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-BlackSc.otf");
+  font-variant: small-caps;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-BoldItalic.otf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-BoldSc.otf");
+  font-variant: small-caps;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-Light.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-LightSc.otf");
+  font-variant: small-caps;
+}
 @font-face {
   font-family: "IndivisaTextSerif";
   src: url("fonts/IndivisaTextSerif-Regular.otf");
@@ -92,6 +128,24 @@ body {
   font-weight: 500;
   font-style: italic;
 }
+@font-face {
+  font-family: "IndivisaTextSerif";
+  src: url("fonts/IndivisaTextSerif-RegularSc.otf");
+  font-variant: small-caps;
+}
+/*General*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+
 /*Colores*/
 :root {
     --azul: #3F54FF;
@@ -106,11 +160,19 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #001288;
+}
+a,
+p.indivisa,
+p.despedida,
+section#ejesTematicos p.titulo{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #001288;
 }
 /*Botones*/
 
@@ -240,6 +302,8 @@ section#home h2{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+section#home h2{
   font-size: 45px;
   margin-top: 125px;
 }
@@ -247,6 +311,8 @@ section#home p{
   font-family: IndivisaTextSerif, serif;
   font-style: italic;
   font-weight: 500;
+}
+section#home p{
   font-size: 25px;
   margin-bottom: 80px;
 }
@@ -254,6 +320,8 @@ section#home p.fecha{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+section#home p.fecha{
   font-size: 32px;
   margin-top: 125px;
 }
@@ -261,10 +329,21 @@ section#home .row{
   padding-top: 100px;
 }
 
-section#welcome p.dear,section#comoParticipar,
-section#registrationForm{
+section#welcome p.dear,
+section#comoParticipar,
+section#registrationForm,
+section#welcome div.welcomeText p:nth-child(1),
+section#welcome p.despedida{
+
   color: #001288;
 }
+
+section#welcome p.dear{
+  font-family: IndivisaTextSerif, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 section#welcome p.dear{
   font-size: 5em;
   line-height: 1em;
@@ -277,13 +356,18 @@ section#welcome div.welcomeText{
   margin: 50px 40px;
   border-left: 2px solid #000;
 }
-
-section#welcome p.namePerson span.position{
-  color: #fff;
-  font-size: 20px;
+section#welcome div.welcomeText p:nth-child(1){
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 700;
 }
-
-
+section#welcome div.welcomeText p:nth-child(1){
+  font-size: 25px;
+}
+section#welcome p.despedida
+{
+  text-align: right;
+  font-size: 25px;
+}
 section#ejesTematicos{
   padding: 60px;
   background-image: url('../images/home/CEMEL_Back02.png');
@@ -431,7 +515,7 @@ section#registrationForm p.subtitle{
   font-weight: 700;
 
 }
-section#registrationForm p.instructions{
+section#registrationForm {
   font-size: 25px;
   font-weight: 300;
 }
@@ -450,11 +534,25 @@ button.btn{
 
 /*Footer*/
 
+footer.bannerFooter{
+  background-image: url('../images/footer/CEMEL_Footer.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-color: #101188;
+  color: #fff;
+  padding-top: 50px;
+}
+
 footer {
   text-align: center;
 }
 footer a{
-  color: #101d61;
+  color: #6d6d6d;;
   font-weight: bold;
 }
 footer a:hover{
@@ -462,19 +560,11 @@ footer a:hover{
   color: #c30824;
 
 }
-footer div ul {
-    list-style-image: url('../images/footer/icon_redArrow.png');
+footer p.hashtag{
+  font-size: 40px;
 }
-footer div ul li {
-    float: right;
-    margin-left: 50px
-}
-
-footer div ul li a {
-    display: block;
-    text-align: center;
-    padding: 16px 0px;
-    text-decoration: none;
+footer div.legales{
+  border-top: 1px #c30824 solid;
 }
 
 p.aviso, p.terminos{
@@ -485,7 +575,7 @@ p.aviso:hover, p.terminos:hover{
   color: #c30824;
 }
 p.aviso.active,p.terminos.active{
-  border-bottom: #c30824 solid 2px;
+  color: #c30824;
 }
 div.resumenAviso p, div.resumenTerminos p{
   text-align: left;
@@ -576,7 +666,7 @@ footer div ul.listaEscuelas li {
     font-size: 75px;
   }
   section#program p.subtitle {
-    margin-top: -50px;
+    margin-top: -30px;
   }
  
   section#program div.content {
