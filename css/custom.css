@@ -30,6 +30,7 @@
   font-family: "IndivisaTextSans";
   src: url("fonts/IndivisaTextSans-BoldSc.otf");
   font-variant: small-caps;
+  font-weight: 700;
 }
 
 @font-face {
@@ -246,7 +247,7 @@ section a.scroll span, header a.scroll span{
 /*Fin General*/
 /*Menu*/
 nav.navbar.navbar-light{
-  background: #c5c5c5cf;
+  background: #c4c5cacf;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -379,21 +380,38 @@ section#ejesTematicos{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.ejesInfo p{
+
+}
+
 section#ejesTematicos{
   color: #fff;
 }
+section#ejesTematicos span.numeroEje, section#comoParticipar p span.iniciales{
+  font-family: "IndivisaTextSans",sans-serif;
+  font-variant: small-caps;
+  font-weight: 700;
+}
 section#ejesTematicos span.numeroEje{
   float: left;
-  font-size: 60px;
-  line-height: 55px;
+  font-size: 50px;
+  line-height: 30px;
   padding-top: 4px;
   padding-right: 8px;
-  padding-left: 3px;
+  padding-left: 3px; 
 }
 section#ejesTematicos figure{text-align: center;}
 section#ejesTematicos figure figcaption{
   text-align: center;
-  font-weight: 500;
+  line-height: 22px;
+}
+section#ejesTematicos div.contenidoCongreso{
+  margin-top: 80px;
+}
+section#ejesTematicos figure figcaption{
+  font-family: IndivisaTextSans, sans-serif;
+  font-weight: 300;
 }
 
 section#ejesTematicos p.titulo,
@@ -406,10 +424,24 @@ section#ejesTematicos p.titulo{
     font-size: 50px;
 }
 section#ejesTematicos div.infoTemas p.titulo{
-    font-size: 40px;
+    font-size: 60px;
     text-align: right;
 }
+section#ejesTematicos hr{
+  border: 0;
+  border-top: 20px solid rgb(255, 255, 255);
+  width: 60%;
+  margin: 1rem 0 1rem auto;
+}
+section#ejesTematicos div.contenidoEjes{
+  border-right: 2px #c30824 solid;
+}
+section#ejesTematicos div p.ejesInfo {
+  line-height: 20px;
+  font-size: 20px;
+  margin-bottom: 60px;
 
+}
 
 section#comoParticipar{
   padding: 60px;
@@ -417,7 +449,9 @@ section#comoParticipar{
 section#comoParticipar p.titulo{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 900;
-  font-size: 45px;
+}
+section#comoParticipar p.titulo{
+  font-size: 60px;
   line-height: 50px;
 }
 
@@ -425,7 +459,7 @@ section#comoParticipar p span.iniciales{
   float: left;
   font-size: 20px;
   line-height: 50px;
-  padding: 5px 10px;
+  padding: 5px 13px;
   border: 5px solid #001288;
   border-radius: 50px;
   margin-right: 15px;
@@ -446,6 +480,8 @@ section#comoParticipar p span.iniciales.dosLetras{
 section#comoParticipar div.opcionesDos{
   margin-top: 50px;
 }
+
+/*Fondo Programa background: #7e92f966;*/
 
 section#program{
   background-image: url('../images/home/CEMEL_Back03.png');
@@ -644,20 +680,9 @@ footer div ul.listaEscuelas li {
   section#welcome p.namePerson span.position {
     font-size: 16px;
   }
-  section#globalChallenges {
-    padding: 10px;
+  section#ejesTematicos div.contenidoEjes,section#comoParticipar div.opciones {
+    border:  none;
   }
-  section#globalChallenges h1.globalTitle {
-    font-size: 40px;
-    line-height: 40px;
-  }
-  section#globalChallenges p.globalSubtitle {
-    font-size: 28px;
-  }
-  section#globalChallenges p.description {
-    font-size: 16px;
-  }
-  
 
   section#program {
     padding: 10px;

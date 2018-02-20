@@ -126,15 +126,16 @@
 
 <section id="ejesTematicos" class="container-fluid">
   <div class="row">
-      <div class="col-12 col-sm-5">
+      <div class="col-12 col-sm-5 contenidoEjes">
         <p class="titulo">Ejes temáticos</p>
-        <p><span class="numeroEje">1</span>Retos<br>Educativos</p>
-        <p><span class="numeroEje">2</span>Asociación Lasallista y<br>Comunidad Educativa</p>
-        <p><span class="numeroEje">3</span>La Declaración<br>de la Pedagogía Lasaliana</p>
+        <p class="ejesInfo"><span class="numeroEje">1</span>Retos<br>Educativos</p>
+        <p class="ejesInfo"><span class="numeroEje">2</span>Asociación Lasallista y<br>Comunidad Educativa</p>
+        <p class="ejesInfo"><span class="numeroEje">3</span>La Declaración<br>de la Pedagogía Lasaliana</p>
       </div>
       <div class="col-12 col-sm-7 infoTemas">
         <p class="titulo">¿Qué voy a encontrar<br> en el Congreso?</p>
-        <div class="row ">
+        <hr>
+        <div class="row contenidoCongreso">
           <figure class="col">
             <img src="images/home/CEMEL_Conferencias.png" alt="Conferencias" class="img-fluid">
             <figcaption>Conferencias<br>Magistrales</figcaption>
