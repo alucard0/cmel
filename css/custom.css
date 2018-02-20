@@ -27,10 +27,11 @@
 }
 
 @font-face {
-  font-family: "IndivisaTextSans";
+  font-family: "IndivisaTextSans-SC";
   src: url("fonts/IndivisaTextSans-BoldSc.otf");
   font-variant: small-caps;
   font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
@@ -389,7 +390,7 @@ section#ejesTematicos{
   color: #fff;
 }
 section#ejesTematicos span.numeroEje, section#comoParticipar p span.iniciales{
-  font-family: "IndivisaTextSans",sans-serif;
+  font-family: "IndivisaTextSans-SC",sans-serif;
   font-variant: small-caps;
   font-weight: 700;
 }
@@ -651,10 +652,10 @@ footer div ul.listaEscuelas li {
 
 /*Fin Footer*/
 /*Media Queries*/
-
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-  section#home div.row.justify-content-end figure{
+@media (max-width: 575.98px)
+{
+   section#home div.row.justify-content-end figure{
     text-align: right;
   }
   section#home div.row.justify-content-end figure img{
@@ -680,10 +681,21 @@ footer div ul.listaEscuelas li {
   section#welcome p.namePerson span.position {
     font-size: 16px;
   }
-  section#ejesTematicos div.contenidoEjes,section#comoParticipar div.opciones {
+  section#ejesTematicos div.contenidoEjes,
+  section#comoParticipar div.opciones,
+  section#welcome div.welcomeText {
     border:  none;
   }
-
+  section#ejesTematicos div.infoTemas p.titulo {
+      font-size: 36px;
+      text-align: left;
+  }
+  section#ejesTematicos hr{
+      margin: 1rem auto 1rem 0;
+  }
+  section#ejesTematicos p.titulo {
+      line-height: 50px;
+  }
   section#program {
     padding: 10px;
   }
@@ -698,8 +710,6 @@ footer div ul.listaEscuelas li {
     font-size: 20px;
   }
 
-
-
   section#registrationForm {
     padding: 10px;
   }
@@ -707,30 +717,38 @@ footer div ul.listaEscuelas li {
   section#registrationForm p.title {
     font-size: 50px;
   }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)  {
+
+ 
 
 }
 
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
  html{
     font-size: 20px;
   }
 
 }
 
-/*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
 
  html{
     font-size: 16px;
   }
 }
 
-/*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { 
+/* Extra large devices (large desktops, 1200px and up*/
+@media (min-width: 1200px) { 
 
  html{
     font-size: 16px;
+  }
+  section#welcome p.dear {
+    font-size: 4em;
   }
 }
 

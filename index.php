@@ -103,10 +103,10 @@
 </section>
 <section id="welcome" class="container-fluid">
   <div class="row">
-    <div class="col-12 col-sm-6">
+    <div class="col-12 col-xl-4 col-sm-6">
       <p class="text-right dear">Estimados<br>Lasalianos</p>
     </div>
-    <div class="col-12  col-sm-6">
+    <div class="col-12  col-xl-8 col-sm-6">
       <div class="welcomeText">
         <p>El 300 aniversario de la muerte de nuestro Santo Fundador, nos brinda la oportunidad de encontrarnos para celebrar la herencia y vitalidad lasaliana con la finalidad de favorecer una renovación que testimonie un futuro esperanzador.</p>
         <p>Educadores de todo el mundo y de todos los niveles educativos, estamos convocados a participar en el Congreso Mundial de Educación Lasaliana, que se realizará del 14 al 16 de marzo de 2019, en la Universidad La Salle de la Ciudad de México.</p>
