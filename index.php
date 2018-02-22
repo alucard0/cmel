@@ -278,23 +278,45 @@
 
 
 <section id="registrationForm" class="container-fluid">
-  <p class="text-left title">Registro</p>
+  <p class="text-left title">Preregistro</p>
 
   <form>
     <div class="form-row">
       <div class="col-md-6">
-        <div class="form-group col-md-12">
-            <input type="text" class="form-control" id="cmpNombre" name="cmpNombre" placeholder="Nombre">
-        </div>
-        <div class="form-group col-md-12">
-            <input type="text" class="form-control" id="cmpInstitucion" name="cmpInstitucion" placeholder="Institución">
-        </div>
-        <div class="form-group col-md-12">
-             <input type="email" class="form-control" id="cmpMail" name="cmpMail" placeholder="e-mail">
+        <div class="form-row">
+          <div class="col-2 col-sm-2">
+            <figure class="text-right">
+              <img src="images/form/LandingPage-01.png" alt="">
+            </figure>
+          </div>
+          <div class="form-group col-10 col-sm-10">
+              <input type="text" class="form-control" id="cmpNombre" name="cmpNombre" placeholder="Nombre">
+          </div>
+
+          <div class="col-2 col-sm-2">
+            <figure class="text-right">
+              <img src="images/form/LandingPage-02.png" alt="">
+            </figure>
+          </div>
+          <div class="form-group col-10 col-sm-10">
+              <input type="text" class="form-control" id="cmpInstitucion" name="cmpInstitucion" placeholder="Institución">
+          </div>
+
+          <div class="col-2 col-sm-2">
+            <figure class="text-right">
+              <img src="images/form/LandingPage-03.png" alt="">
+            </figure>
+          </div>
+          <div class="form-group col-10 col-sm-10">
+              <input type="email" class="form-control" id="cmpMail" name="cmpMail" placeholder="e-mail">
+          </div>
+
         </div>
       </div>
       <div class="col-md-6">
-        <button type="button" class="btn btn-primary btn-lg">Submit</button>
+        <div class="form-row align-items-center filaBoton">
+          <button type="button" class="btn btn-primary btn-lg mx-auto">Enviar</button>
+        </div>
       </div>
     </div>
   </form>

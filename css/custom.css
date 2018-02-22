@@ -303,7 +303,9 @@ section#home h1{
   font-style: italic;
   margin-top: 30px;
 }
-section#home h2{
+section#home h2,
+section#program p.title,
+section#registrationForm p.title{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 900;
   font-style: italic;
@@ -321,7 +323,8 @@ section#home p{
   font-size: 25px;
   margin-bottom: 80px;
 }
-section#home p.fecha{
+section#home p.fecha,section#registrationForm input,
+section#home p.fecha,section#registrationForm button{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -450,13 +453,15 @@ section#ejesTematicos div p.ejesInfo {
 section#comoParticipar{
   padding: 60px;
 }
-section#comoParticipar p.titulo{
+section#comoParticipar p.titulo,
+footer p.hashtag{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 900;
 }
 section#comoParticipar p.titulo{
   font-size: 60px;
   line-height: 50px;
+  margin-bottom: 50px;
 }
 
 section#comoParticipar p span.iniciales{
@@ -515,9 +520,8 @@ section#program{
 section#program{
   padding: 100px;
 }
-section#program p.title,section#program span.mayores{
+section#program p.title{
   font-size: 90px;
-  font-weight: 900;
   margin:0;
 }
 section#program p.subtitle{
@@ -544,12 +548,14 @@ section#program div.content{
 
 
 section#registrationForm{
-  padding: 100px;
+  padding: 50px 100px;
 }
 
 section#registrationForm p.title{
   font-size: 70px;
   line-height: 70px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 section#registrationForm p.subtitle{
@@ -558,21 +564,36 @@ section#registrationForm p.subtitle{
   font-weight: 700;
 
 }
-section#registrationForm {
-  font-size: 25px;
-  font-weight: 300;
+
+section#registrationForm  figure img,
+section#registrationForm .form-control{
+  background: #E2E7ED;
 }
+
 section#registrationForm .form-control{
   color: #01215e;
+}
+section#home p.fecha,section#registrationForm button
+{
+  text-transform: none;
 }
 button.btn{
   border-radius: 0;
   padding: 10px 80px;
 }
 .btn-primary{
-  background-color: var(--azulagua);
-  border-color: var(--azulagua);
+  background-color: #001288;
+  border-color: #001288;
 }
+.btn-primary:hover{
+  background-color: #000e66;
+  border-color: #000e66;
+}
+
+section#registrationForm div.filaBoton{
+  min-height: 11rem;
+}
+
 /*Fin Contenido*/
 
 /*Footer*/
