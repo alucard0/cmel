@@ -33,22 +33,6 @@
     <!--<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Web Fonts -->
-    <script>
-      WebFontConfig = {
-        google: { families: [ 'Roboto:100,300,400,500,700,900'] }
-      };
-      (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-          '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-      })(); 
-    </script>
-
     <!-- Plugin CSS -->
 
 
@@ -103,10 +87,10 @@
 </section>
 <section id="welcome" class="container-fluid">
   <div class="row">
-    <div class="col-12 col-xl-4 col-sm-6">
+    <div class="col-12 col-sm-6 col-md-4 col-xl-4">
       <p class="text-right dear">Estimados<br>Lasalianos</p>
     </div>
-    <div class="col-12  col-xl-8 col-sm-6">
+    <div class="col-12 col-sm-6 col-md-8 col-xl-8">
       <div class="welcomeText">
         <p>El 300 aniversario de la muerte de nuestro Santo Fundador, nos brinda la oportunidad de encontrarnos para celebrar la herencia y vitalidad lasaliana con la finalidad de favorecer una renovación que testimonie un futuro esperanzador.</p>
         <p>Educadores de todo el mundo y de todos los niveles educativos, estamos convocados a participar en el Congreso Mundial de Educación Lasaliana, que se realizará del 14 al 16 de marzo de 2019, en la Universidad La Salle de la Ciudad de México.</p>
