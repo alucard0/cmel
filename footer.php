@@ -72,29 +72,7 @@
     <!-- Theme JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-    <script src="js/home.min.js"></script>
+    <script src="js/home.js"></script>
 
-
- <script src="js/ScrollTrigger.min.js"></script>
- <script>
- 	if( $(this).width() > 750)
-    {
-		window.counter = function() {
-			// this refers to the html element with the data-scroll-showCallback tag
-			var span = this.querySelector('section');
-			var current = parseInt(span.textContent);
-
-			span.textContent = current + 1;
-		};
-
-		document.addEventListener('DOMContentLoaded', function(){
-		  var trigger = new ScrollTrigger({
-			  addHeight: true
-		  });
-		});
-
-
-	}
-	</script>
 </body>
 </html>

@@ -27,7 +27,7 @@
     <meta name="twitter:image" content="http://informerector.lasalle.mx/images/TWITTER_CARD.png">
      -->
 
-    <title>CMEL 2019 | La Salle</title>
+    <title>ICLE 2019 | La Salle</title>
 
     <!-- Bootstrap Core CSS -->
     <!--<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
@@ -75,12 +75,12 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#home">Inicio <span class="sr-only">(current)</span></a>
         
-        <a class="nav-item nav-link" href="#">Información</a>
-        <a class="nav-item nav-link" href="#">¿Cómo puedo participar?</a>
-        <a class="nav-item nav-link" href="#">Programa</a>
-        <a class="nav-item nav-link" href="#">Preregistro</a>
+        <a class="nav-item nav-link" href="#ejesTematicos">Información</a>
+        <a class="nav-item nav-link" href="#comoParticipar">¿Cómo puedo participar?</a>
+        <a class="nav-item nav-link" href="#program">Programa</a>
+        <a class="nav-item nav-link" href="#registrationForm">Preregistro</a>
         
       </div>
     </div>
@@ -112,7 +112,7 @@
         <p>Educadores de todo el mundo y de todos los niveles educativos, estamos convocados a participar en el Congreso Mundial de Educación Lasaliana, que se realizará del 14 al 16 de marzo de 2019, en la Universidad La Salle de la Ciudad de México.</p>
         <p>Con el tema: La Educación Lasaliana para el S. XXI, el congreso será un espacio de encuentro académico en el que se comparta la reflexión educativa, las perspectivas del futuro de la educación y las buenas prácticas en el contexto del camino hacia la Declaración de la Pedagogía Lasaliana.</p>
         <p>Contaremos con la participación del Hno. Robert Schieler, Superior General de los Hermanos de las Escuelas Cristianas; así como importantes ponentes sobre la agenda global y la educación.  Además, los académicos lasalianos, podrán participar con ponencias y talleres sobre experiencias educativas transformadoras, ponencias de investigación y exposiciones fotográficas.</p>
-        <p>Los invito a consultar el programa completo, convocatorias, fechas e información del Congreso en la página <a href="www.lasalle.org/CMEL300" target="_blak" rel="noopener">www.lasalle.org/CMEL300</a></p>
+        <p>Los invito a consultar el programa completo, convocatorias, fechas e información del Congreso en la página <a href="http://www.lasalle.org/CMEL300" target="_blak" rel="noopener">www.lasalle.org/CMEL300</a></p>
         <p>La tarifa de inscripción para participar en el CMEL  es de US $225 por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo. Deberán registrarse a partir del 24 de septiembre en línea. La inscripción cierra el 15 de febrero de 2019.</p>
         <p>Renovemos juntos nuestra Pedagogía Lasaliana, respondamos a los signos de nuestro tiempo, con un mismo corazón, y un solo compromiso: dar razones de esperanza, construyendo, desde la educación, un futuro más justo y fraterno para todos.</p>
         <p class="despedida">
@@ -152,10 +152,6 @@
             <img src="images/home/CEMEL_FeriaCultural.png" alt="Feria cultural">
             <figcaption>Feria<br>Cultural</figcaption>
           </figure>
-          <figure class="col">
-            <img src="images/home/CEMEL_Ensayo.png"" alt="Ensayo integrado">
-            <figcaption>Ensayo<br>Integrador</figcaption>
-          </figure>
         </div>
       </div>
   </div>
@@ -170,29 +166,26 @@
     </div>
     <div class="col-12 col-sm-7 opciones">
       <div class="row">
-        <div class="col-6">
+        <div class="col">
           <p><span class="iniciales">Peet</span>Ponencia experiencia<br>educativa transformadora</p>
         </div>
-        <div class="col-6">
+        <div class="col">
           <p><span class="iniciales dosLetras">Pi</span>Ponencias<br>de investigación</p>
         </div>
       </div>
       <div class="row opcionesDos">
-        <div class="col-6"><p><span class="iniciales">Teet</span>Taller experiencia<br>educativa transformadora</p></div>
-        <div class="col-6"><p><span class="iniciales">Foto</span>Exposición<br>fotográfica</p></div>
+        <div class="col"><p><span class="iniciales">Teet</span>Taller experiencia<br>educativa transformadora</p></div>
+        <div class="col"><p><span class="iniciales">Foto</span>Exposición<br>fotográfica</p></div>
       </div>
     </div>
   </div>
 </section>
 <section id="program" class="container-fluid">
     <div class="row">
-      <div class="col-12 col-sm-6 d-block d-sm-none">
+      <div class="col-12">
         <p class="text-right title">Programa</p>
         <p class="text-right subtitle">14-26</p>
-      </div>
-      <div class="col-12 col-sm-6 d-none d-sm-block">
-        <p class="text-right title">Programa</p>
-        <p class="text-right subtitle">14-26</p>
+        <hr>
       </div>
       
     </div>
@@ -200,7 +193,8 @@
       <div class="col-12 col-sm-4">
         <p class="day">Día 1</p>
         <p class="date">Miércoles, Marzo 14</p>
-        <div class="row content">
+        <hr class="red">
+        <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">08:00 09:00</div>
           <div class="col-7 col-sm-9 col-md-7">Recepción</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
@@ -228,7 +222,8 @@
       <div class="col-sm-4">
         <p class="day">Día 2</p>
         <p class="date">Jueves, Marzo 15</p>
-        <div class="row content">
+        <hr class="red">
+        <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>
           <div class="col-7 col-sm-9 col-md-7">Oración. Recapitulación del día anterior</div>
           <div class="col-5 col-sm-3 col-md-5">09:15 10:00</div>
@@ -256,7 +251,8 @@
       <div class="col-sm-4">
         <p class="day">Día 3</p>
         <p class="date">Viernes, Marzo 16</p>
-        <div class="row content">
+        <hr class="red">
+        <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>
           <div class="col-7 col-sm-9 col-md-7">Oración. Recapitulación del día anterior</div>
           <div class="col-5 col-sm-3 col-md-5">09:15 10:00</div>
@@ -289,6 +285,9 @@
       <div class="col-md-6">
         <div class="form-group col-md-12">
             <input type="text" class="form-control" id="cmpNombre" name="cmpNombre" placeholder="Nombre">
+        </div>
+        <div class="form-group col-md-12">
+            <input type="text" class="form-control" id="cmpInstitucion" name="cmpInstitucion" placeholder="Institución">
         </div>
         <div class="form-group col-md-12">
              <input type="email" class="form-control" id="cmpMail" name="cmpMail" placeholder="e-mail">

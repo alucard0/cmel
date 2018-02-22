@@ -65,9 +65,10 @@
   font-style: italic;
 }
 @font-face {
-  font-family: "IndivisaTextSans";
+  font-family: "IndivisaTextSans-SC";
   src: url("fonts/IndivisaTextSans-RegularSc.otf");
-  
+  font-weight: 500;
+  font-variant: small-caps;
 }
 
 /*Serif*/
@@ -83,7 +84,7 @@
   font-style: italic;
 }
 @font-face {
-  font-family: "IndivisaTextSerif";
+  font-family: "IndivisaTextSerif-SC";
   src: url("fonts/IndivisaTextSerif-BlackSc.otf");
   font-variant: small-caps;
 }
@@ -99,7 +100,7 @@
   font-style: italic;
 }
 @font-face {
-  font-family: "IndivisaTextSerif";
+  font-family: "IndivisaTextSerif-SC";
   src: url("fonts/IndivisaTextSerif-BoldSc.otf");
   font-variant: small-caps;
 }
@@ -115,7 +116,7 @@
   font-style: italic;
 }
 @font-face {
-  font-family: "IndivisaTextSerif";
+  font-family: "IndivisaTextSerif-SC";
   src: url("fonts/IndivisaTextSerif-LightSc.otf");
   font-variant: small-caps;
 }
@@ -131,7 +132,7 @@
   font-style: italic;
 }
 @font-face {
-  font-family: "IndivisaTextSerif";
+  font-family: "IndivisaTextSerif-SC";
   src: url("fonts/IndivisaTextSerif-RegularSc.otf");
   font-variant: small-caps;
 }
@@ -167,7 +168,9 @@ a {
 a,
 p.indivisa,
 p.despedida,
-section#ejesTematicos p.titulo{
+section#ejesTematicos p.titulo,
+section#program p.day,
+section#registrationForm p.title{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 700;
   font-style: italic;
@@ -428,7 +431,7 @@ section#ejesTematicos div.infoTemas p.titulo{
     font-size: 60px;
     text-align: right;
 }
-section#ejesTematicos hr{
+section#ejesTematicos hr, section#program hr{
   border: 0;
   border-top: 20px solid rgb(255, 255, 255);
   width: 60%;
@@ -481,8 +484,22 @@ section#comoParticipar p span.iniciales.dosLetras{
 section#comoParticipar div.opcionesDos{
   margin-top: 50px;
 }
-
-/*Fondo Programa background: #7e92f966;*/
+section#program hr.red{
+  border-top: 2px solid #c30824 ;
+  margin: 1rem 0 1rem auto;
+  width: 100%;
+}
+section#program div.content div.col-5{
+  font-family: "IndivisaTextSans-SC",sans-serif;
+  font-weight: 500;
+  font-variant: small-caps;
+}
+section#program div.content div.col-5:nth-child(4n+1){
+  background: #7e92f966;
+}
+section#program div.content div.col-7:nth-child(4n+2){
+  background: #7e92f966;
+}
 
 section#program{
   background-image: url('../images/home/CEMEL_Back03.png');
@@ -508,15 +525,10 @@ section#program p.subtitle{
   font-weight: 500;
   margin-top: -45px;
 }
-
-
-
-
-p.orangeBG{
-  background: var(--naranja);
-  color: #fff;
-  padding: 5px 10px;
+section#program hr{
+  width: 40%;
 }
+
 section#program p.day{
   font-size: 70px;
   font-style: italic;  
@@ -528,11 +540,7 @@ section#program p.date{
 }
 section#program div.content{
     font-size: 18px;
-    font-weight
 }
-
-
-
 
 
 section#registrationForm{
@@ -541,9 +549,7 @@ section#registrationForm{
 
 section#registrationForm p.title{
   font-size: 70px;
-  font-weight: 700;
   line-height: 70px;
-  font-style: italic;
 }
 
 section#registrationForm p.subtitle{
@@ -601,7 +607,7 @@ footer p.hashtag{
   font-size: 40px;
 }
 footer div.legales{
-  border-top: 1px #c30824 solid;
+  border-top: 2px #c30824 solid;
 }
 
 p.aviso, p.terminos{
@@ -695,6 +701,13 @@ footer div ul.listaEscuelas li {
   }
   section#ejesTematicos p.titulo {
       line-height: 50px;
+  }
+  section#comoParticipar {
+    padding: 50px;
+  }
+  section#comoParticipar p.titulo {
+    font-size: 40px;
+    line-height: 40px;
   }
   section#program {
     padding: 10px;
