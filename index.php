@@ -165,7 +165,7 @@
   </div>
 </section>
 <section id="program" class="container-fluid">
-    <div class="row">
+    <div class="row no-gutters">
       <div class="col-12">
         <p class="text-right title">Programa</p>
         <p class="text-right subtitle">14-26</p>
@@ -173,7 +173,7 @@
       </div>
       
     </div>
-    <div class="row">
+    <div class="row no-gutters">
       <div class="col-12 col-sm-4">
         <p class="day">Día 1</p>
         <p class="date">Miércoles, Marzo 14</p>
