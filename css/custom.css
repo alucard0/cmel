@@ -457,13 +457,34 @@ section#ejesTematicos hr, section#program hr{
 section#ejesTematicos div.contenidoEjes{
   border-right: 2px #c30824 solid;
 }
-section#ejesTematicos div p.ejesInfo {
+section#ejesTematicos div p.ejesInfo, section#informacionImportante div.infoFechas p.info {
   line-height: 20px;
   font-size: 20px;
   margin-bottom: 60px;
-
+}
+section#informacionImportante div.infoFechas p.info{
+  margin-bottom: 20px;
+}
+section#informacionImportante{
+  background: #DFE4EA;
 }
 
+section#informacionImportante div.infoFechas p{
+  text-align: right;
+}
+
+section#informacionImportante div.infoFechas p.info span.numeroFecha{
+  float: right;
+  font-size: 60px;
+  line-height: 30px;
+  padding-top: 0px;
+  padding-right: 150px;
+  padding-left: 10px;
+}
+section#informacionImportante div.infoFechas p.info.fecha{
+  font-size: 16px;
+  line-height: 16px;
+}
 section#comoParticipar{
   padding: 60px;
 }

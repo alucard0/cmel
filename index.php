@@ -86,30 +86,81 @@
     </div>
   </div>
 </section>
+<section id="home" class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-12 col-sm-6">
+      <figure><img src="images/home/CEMEL_Logo300.png" alt="300" class="img-fluid"></figure>
+    </div>
+    <div class="col-12 col-sm-6">
+      <h1>Congreso Mundial<br>de Educación Lasaliana</h1>
+      <h2>La Educación lasaliana<br>para el S. XXI.</h2>
+      <p>La Salle: una vida, un corazón, un compromiso.</p>
+      <p class="fecha"> 14 al 16 de marzo de 2019</p>
+    </div>
+  </div>
+</section>
 <section id="welcome" class="container-fluid">
   <div class="row">
-    <div class="col-12 col-sm-6 col-md-4 col-xl-4">
+    <div class="col-12 col-xl-4 col-sm-6">
       <p class="text-right dear">Estimados<br>Lasalianos</p>
-      <hr class="azul">
     </div>
-    <div class="col-12 col-sm-6 col-md-8 col-xl-8">
+    <div class="col-12  col-xl-8 col-sm-6">
       <div class="welcomeText">
-        <p>El 300 aniversario de la muerte de nuestro Santo Fundador, nos brinda la oportunidad de encontrarnos para celebrar la herencia y vitalidad lasaliana con la finalidad de favorecer una renovación que testimonie un futuro esperanzador.</p>
-        <p>Educadores de todo el mundo y de todos los niveles educativos, estamos convocados a participar en el Congreso Mundial de Educación Lasaliana, que se realizará del 14 al 16 de marzo de 2019, en la Universidad La Salle de la Ciudad de México.</p>
-        <p>Con el tema: La Educación Lasaliana para el S. XXI, el congreso será un espacio de encuentro académico en el que se comparta la reflexión educativa, las perspectivas del futuro de la educación y las buenas prácticas en el contexto del camino hacia la Declaración de la Pedagogía Lasaliana.</p>
-        <p>Contaremos con la participación del Hno. Robert Schieler, Superior General de los Hermanos de las Escuelas Cristianas; así como importantes ponentes sobre la agenda global y la educación.  Además, los académicos lasalianos, podrán participar con ponencias y talleres sobre experiencias educativas transformadoras, ponencias de investigación y exposiciones fotográficas.</p>
-        <p>Los invito a consultar el programa completo, convocatorias, fechas e información del Congreso en la página <a href="http://www.lasalle.org/CMEL300" target="_blak" rel="noopener">www.lasalle.org/CMEL300</a></p>
-        <p>La tarifa de inscripción para participar en el CMEL  es de US $225 por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo. Deberán registrarse a partir del 24 de septiembre en línea. La inscripción cierra el 15 de febrero de 2019.</p>
-        <p>Renovemos juntos nuestra Pedagogía Lasaliana, respondamos a los signos de nuestro tiempo, con un mismo corazón, y un solo compromiso: dar razones de esperanza, construyendo, desde la educación, un futuro más justo y fraterno para todos.</p>
-        <p class="despedida">
-          Nos vemos en el Congreso<br>Mundial de Educación.
-        </p>
+        <p>El año 2019 marca el 300 aniversario de la entrada de nuestro Santo Fundador a la vida eterna. Este aniversario nos brinda la oportunidad de encontrarnos para celebrar nuestra herencia Lasaliana. Este aniversario es, también, oportunidad para renovar nuestro compromiso de trabajar para asegurar la viabilidad y vitalidad de la misión educativa Lasaliana. Finalmente, este aniversario es ocasión para expresar nuestra visión confiada en un futuro lleno de esperanza.</p>
+        
+        <p>Para resaltar el significado de esta celebración, el comité preparatorio propuso la celebración de un Congreso Mundial de Educación Lasaliana (CMEL300), al cual tengo el honor de convocarlos, en nombre del H. Superior General y de su Consejo.</p>
+
+        <p>El Congreso se realizará en el contexto del camino hacia la Declaración de la Pedagogía Lasaliana. Por ello, el tema elegido es La Educación <strong>Lasaliana para el S. XXI.</strong> Este encuentro académico pretende ofrecer un espacio que nos permita analizar perspectivas del futuro de la educación, así como compartir reflexión y buenas prácticas.</p>
+
+        <p>Esperamos contar con educadores provenientes de todo el mundo Lasaliano, quienes se reunirán en la <strong>Universidad La Salle de la Ciudad de México, del 14 al 16 de marzo de 2019.</strong></p>
+
+        <p>Contaremos con la participación de expertos en la agenda global y la educación.  Además, los académicos Lasalianos podrán compartir el fruto de su investigación, así como prácticas educativas transformadoras, en talleres y una exposición gráfica.</p>
+
+        <p>Los interesados pueden consultar el sitio en la red (<a href="http://www.lasalle.org/ICLE300" target="_blak" rel="noopener">www.lasalle.org/ICLE300</a>) creado para ofrecer información amplia y detallada acerca del Congreso. En el mismo sitio podrán inscribirse, a partir del 8 de octubre de 2018 y hasta el 15 de febrero de 2019.</p>
+
+        <p>Inspirados en San Juan Bautista De La Salle, específicamente en su determinación a responder con creatividad a las necesidades educativas de los más vulnerables, unamos nuestras voces en el Congreso Mundial de Educación Lasaliana, para decir al mundo y a los jóvenes que seguimos empeñados en la construcción de un futuro más justo y fraterno para todos. Nuestra asociación, fuerte y comprometida, dará credibilidad a nuestra palabra que da razones a la esperanza.</p>
+        <p class="despedida">Lasallanos de PARC, RELAN, RELAF, RELEM y RELAL, los esperamos en México. ¡Nuestra casa es su casa!</p>
+       
         <p class="indivisa">Indivisa Manent</p>
+        <p>H. Gustavo Ramírez B., FSC<br>Consejero General<br>Coordinador General de los eventos del Tricentenario</p>
       </div>
     </div>
   </div>
 </section>
+<section class="container-fluid" id="informacionImportante">
+  <div class="row">
+    <div class="col-12 col-sm-7 infoCongreso">
+      <p class="titulo">Congreso Mundial<br>de Educación Lasaliana</p>
 
+      <p class="opcion">Tema:</p>
+      <p>La Educación Lasaliana para el S. XXI</p>
+      <p class="opcion">Lema:</p>
+      <p>La Salle: un corazón, un compromiso, una vida</p>
+      <p class="opcion">Lugar:</p>
+      <p>Universidad La Salle, Ciudad de México</p>
+      <p class="opcion">Dirigido a:</p>
+      <p>Educadores Lasalianos de todo el mundo</p>
+    </div>
+    <div class="col-12 col-sm-5 infoFechas">
+      <p class="titulo">Fechas<br>importantes</p>
+      <div class="row">
+        <div class="col-6">
+          <p class="info">Lanzamiento<br>de la convocatoria</span></p>
+        </div>
+        <div class="col-6">
+          <p class="info fecha"><span class="numeroFecha">1</span>marzo<br>2018</p>
+        </div>
+        p.col-6>p
+      </div>
+      
+      
+      <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+      </div>
+    </div>
+  </div>
+</section>
 <section id="ejesTematicos" class="container-fluid">
   <div class="row">
       <div class="col-12 col-sm-5 contenidoEjes">
