@@ -302,6 +302,7 @@ section#home h1{
   font-size: 40px;
   font-style: italic;
   margin-top: 30px;
+  border-bottom: 1px solid #c30824;
 }
 section#home h2,
 section#program p.title,
@@ -321,7 +322,7 @@ section#home p{
 }
 section#home p{
   font-size: 25px;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 section#home p.fecha,section#registrationForm input,
 section#home p.fecha,section#registrationForm button{
@@ -332,9 +333,22 @@ section#home p.fecha,section#registrationForm button{
 section#home p.fecha{
   font-size: 32px;
   margin-top: 125px;
+  margin-bottom: 60px;
 }
 section#home .row{
   padding-top: 100px;
+}
+section#home hr.rojo{
+  border: 0;
+  border-top: 10px solid #c30824;
+  width: 20%;
+  margin: 1rem 0 1rem auto;
+}
+section#welcome hr.azul{
+  border: 0;
+  border-top: 20px solid #001288;
+  width: 100%;
+  margin: 1rem auto 1rem auto;
 }
 
 section#welcome p.dear,
@@ -544,6 +558,7 @@ section#program p.date{
 }
 section#program div.content{
     font-size: 18px;
+    margin-right: 20px;
 }
 
 
@@ -593,7 +608,9 @@ button.btn{
 section#registrationForm div.filaBoton{
   min-height: 11rem;
 }
-
+section#registrationForm input{
+  height: 40px;
+}
 /*Fin Contenido*/
 
 /*Footer*/
@@ -616,30 +633,30 @@ footer {
   text-align: center;
 }
 footer a{
-  color: #6d6d6d;;
+  color: #fff;
   font-weight: bold;
 }
 footer a:hover{
   text-decoration: none;
-  color: #c30824;
+  color: #45B8FF;
 
 }
 footer p.hashtag{
   font-size: 40px;
 }
 footer div.legales{
-  border-top: 2px #c30824 solid;
+  border-top: 2px #cccccc solid;
 }
 
 p.aviso, p.terminos{
   cursor: pointer;
   padding: 1% 0;
 }
-p.aviso:hover, p.terminos:hover{
-  color: #c30824;
+p.aviso:hover, p.terminos:hover,p.aviso:focus, p.terminos:focus{
+  color: #45B8FF;
 }
 p.aviso.active,p.terminos.active{
-  color: #c30824;
+  color: #45B8FF;
 }
 div.resumenAviso p, div.resumenTerminos p{
   text-align: left;
@@ -708,6 +725,12 @@ footer div ul.listaEscuelas li {
   section#welcome p.namePerson span.position {
     font-size: 16px;
   }
+  section#welcome hr.azul {
+      width: 50%;
+      margin: 1rem 0 1rem auto;
+  }
+
+
   section#ejesTematicos div.contenidoEjes,
   section#comoParticipar div.opciones,
   section#welcome div.welcomeText {
@@ -742,6 +765,7 @@ footer div ul.listaEscuelas li {
  
   section#program div.content {
     font-size: 20px;
+    margin-right: 0;
   }
 
   section#registrationForm {

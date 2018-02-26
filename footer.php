@@ -13,7 +13,11 @@
 				<figure><img src="images/footer/CEMEL_SignumFidei.png" alt=""></figure>
 			</div>
 			<div class="col-6 col-sm-3">
-				<figure><img src="images/footer/Footer_Logo_Imagotipo.png" alt=""></figure>
+				<a href="http://www.lasalle.mx/" target="_blank" rel="noopener">
+					<figure>
+						<img src="images/footer/Footer_Logo_Imagotipo.png" alt="">
+					</figure>
+				</a>
 			</div>
 			<div class="col-6 col-sm-3">
 				<figure><img src="images/footer/redlasalle.png" alt=""></figure>
@@ -73,6 +77,13 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <script src="js/home.js"></script>
+    <script type="text/javascript">
+    	$('#menu div.navbar-collapse > div.navbar-nav a.nav-item').click(function(e) {
+		    var $this = $(this);
+		    $this.siblings().removeClass('active').end().addClass('active');
+		    e.preventDefault();
+		});
+    </script>
 
 </body>
 </html>

@@ -52,7 +52,7 @@
 <body id="page-top">
 
 <header class="container">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
+    <nav id="menu" class="navbar navbar-expand-lg fixed-top navbar-light ">
      <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -81,6 +81,7 @@
       <h1>Congreso Mundial<br>de Educación Lasaliana</h1>
       <h2>La Educación lasaliana<br>para el S. XXI.</h2>
       <p>La Salle: una vida, un corazón, un compromiso.</p>
+      <hr class="rojo">
       <p class="fecha"> 14 al 16 de marzo de 2019</p>
     </div>
   </div>
@@ -89,6 +90,7 @@
   <div class="row">
     <div class="col-12 col-sm-6 col-md-4 col-xl-4">
       <p class="text-right dear">Estimados<br>Lasalianos</p>
+      <hr class="azul">
     </div>
     <div class="col-12 col-sm-6 col-md-8 col-xl-8">
       <div class="welcomeText">
@@ -178,7 +180,7 @@
         <p class="day">Día 1</p>
         <p class="date">Miércoles, Marzo 14</p>
         <hr class="red">
-        <div class="row content no-gutters">
+        <div class="row no-gutters content">
           <div class="col-5 col-sm-3 col-md-5">08:00 09:00</div>
           <div class="col-7 col-sm-9 col-md-7">Recepción</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
@@ -270,7 +272,7 @@
         <div class="form-row">
           <div class="col-2 col-sm-2">
             <figure class="text-right">
-              <img src="images/form/LandingPage-01.png" alt="">
+              <img src="images/form/Formulario_Nombre.png" alt="">
             </figure>
           </div>
           <div class="form-group col-10 col-sm-10">
@@ -279,7 +281,7 @@
 
           <div class="col-2 col-sm-2">
             <figure class="text-right">
-              <img src="images/form/LandingPage-02.png" alt="">
+              <img src="images/form/Formulario_Universidad.png" alt="">
             </figure>
           </div>
           <div class="form-group col-10 col-sm-10">
@@ -288,7 +290,16 @@
 
           <div class="col-2 col-sm-2">
             <figure class="text-right">
-              <img src="images/form/LandingPage-03.png" alt="">
+              <img src="images/form/Formulario_Region.png" alt="">
+            </figure>
+          </div>
+          <div class="form-group col-10 col-sm-10">
+              <input type="text" class="form-control" id="cmpRegion" name="cmpREgion" placeholder="Región">
+          </div>
+
+          <div class="col-2 col-sm-2">
+            <figure class="text-right">
+              <img src="images/form/Formulario_Correo.png" alt="">
             </figure>
           </div>
           <div class="form-group col-10 col-sm-10">
