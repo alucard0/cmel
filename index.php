@@ -352,7 +352,7 @@
 <section id="registrationForm" class="container-fluid">
   <p class="text-left title">Preregistro</p>
 
-  <form>
+  <form id="registroForm">
     <div class="form-row">
       <div class="col-md-6">
         <div class="form-row">
@@ -380,7 +380,9 @@
             </figure>
           </div>
           <div class="form-group col-10 col-sm-10">
-              <input type="text" class="form-control" id="cmpRegion" name="cmpREgion" placeholder="Región">
+			  <select class="form-control" id="cmpRegion" name="cmpRegion">
+				<?php include 'controlador/ControladorRegiones.php'; ?>
+			  </select> 
           </div>
 
           <div class="col-2 col-sm-2">
@@ -396,12 +398,29 @@
       </div>
       <div class="col-md-6">
         <div class="form-row align-items-center filaBoton">
-          <button type="button" class="btn btn-primary btn-lg mx-auto">Enviar</button>
+          <button type="button" class="btn btn-primary btn-lg mx-auto" id="btnEnviar">Enviar</button>
         </div>
       </div>
     </div>
   </form>
 
 </section>
+
+<!-- Ventana Exito -->
+<div class="modal fade" id="Ventana_Exito" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Contenido Ventana -->
+      <div class="modal-content">
+        <div class="modal-header">
+			<h4 class="modal-title">Registro Correcto.</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
 <?php include 'footer.php';?>
