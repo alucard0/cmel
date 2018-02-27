@@ -1,4 +1,3 @@
-
 jQuery(function($){
 	$("div.resumenTerminos").hide();
 	$("div.resumenAviso").hide();
