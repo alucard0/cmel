@@ -59,7 +59,7 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#home">Inicio <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#home">Inicio <span class="sr-only">(current)</span></a>
         
         <a class="nav-item nav-link" href="#ejesTematicos">Información</a>
         <a class="nav-item nav-link" href="#comoParticipar">¿Cómo puedo participar?</a>
@@ -129,47 +129,73 @@
 </section>
 <section class="container-fluid" id="informacionImportante">
   <div class="row">
-    <div class="col-12 col-sm-7 infoCongreso">
+    <div class="col-12 col-sm-5 infoCongreso">
       <p class="titulo">Congreso Mundial<br>de Educación Lasaliana</p>
 
-      <p class="opcion">Tema:</p>
-      <p>La Educación Lasaliana para el S. XXI</p>
-      <p class="opcion">Lema:</p>
-      <p>La Salle: un corazón, un compromiso, una vida</p>
-      <p class="opcion">Lugar:</p>
-      <p>Universidad La Salle, Ciudad de México</p>
-      <p class="opcion">Dirigido a:</p>
-      <p>Educadores Lasalianos de todo el mundo</p>
+      <p class="opcion"><span class="titulo">Tema:</span><br>La Educación Lasaliana para el S. XXI</p>
+   
+      <p class="opcion"><span class="titulo">Lema:</span><br>La Salle: un corazón, un compromiso, una vida</p>
+      <p class="opcion"><span class="titulo">Lugar:</span><br>Universidad La Salle, Ciudad de México</p>
+
+      <p class="opcion"><span class="titulo">Dirigido a:</span><br>Educadores Lasalianos de todo el mundo</p>
+
     </div>
-    <div class="col-12 col-sm-5 infoFechas">
+    <div class="col-12 col-sm-7 infoFechas">
       <p class="titulo">Fechas<br>importantes</p>
       <div class="row">
-        <div class="col-6">
-          <p class="info">Lanzamiento<br>de la convocatoria</span></p>
+        <div class="col-5 col-sm-5">
+          <p class="info">Lanzamiento<br>de la convocatoria</p>
         </div>
-        <div class="col-6">
+        <div class="col-4 col-sm-4">
           <p class="info fecha"><span class="numeroFecha">1</span>marzo<br>2018</p>
         </div>
-        p.col-6>p
+
+        <div class="col-5 col-sm-5">
+          <p class="info">Recepción de taller<br>/ ponencia</p>
+        </div>
+        <div class="col-5 dosMeses col-sm-5">
+          <p class="info fecha"><span class="numeroFecha dosFechas">26 - 1</span>marzo<br>2018</p>
+        </div>
+        <div class="col-1 col-sm-1">
+          <p class="info fecha text-left">sept<br>2018</p>
+        </div>
+
+        <div class="col-5 col-sm-5">
+          <p class="info">Inscripciones<br>generales</p>
+        </div>
+        <div class="col-4 col-sm-4">
+          <p class="info fecha"><span class="numeroFecha">8</span>octubre<br>2018</p>
+        </div>
+
+        <div class="col-5 col-sm-5">
+          <p class="info">Cierre de<br>inscripciones</p>
+        </div>
+        <div class="col-4 col-sm-4">
+          <p class="info fecha"><span class="numeroFecha">8</span>octubre<br>2018</p>
+        </div>
       </div>
       
       
       <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
+        <div class="col-5 col-sm-5">
+          <p class="info">Días del congreso<br>inscripciones</p>
+        </div>
+        <div class="col-6 col-sm-6">
+          <p class="info fecha"><span class="numeroFecha">14 al 16</span>marzo<br>2019</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 <section id="ejesTematicos" class="container-fluid">
   <div class="row">
-      <div class="col-12 col-sm-5 contenidoEjes">
+      <div class="col-12 col-sm-4 contenidoEjes">
         <p class="titulo">Ejes temáticos</p>
         <p class="ejesInfo"><span class="numeroEje">1</span>Retos<br>Educativos</p>
         <p class="ejesInfo"><span class="numeroEje">2</span>Asociación Lasallista y<br>Comunidad Educativa</p>
         <p class="ejesInfo"><span class="numeroEje">3</span>La Declaración<br>de la Pedagogía Lasaliana</p>
       </div>
-      <div class="col-12 col-sm-7 infoTemas">
+      <div class="col-12 col-sm-8 infoTemas">
         <p class="titulo">¿Qué voy a encontrar<br> en el Congreso?</p>
         <hr>
         <div class="row contenidoCongreso">
@@ -182,6 +208,10 @@
             <figcaption>Mesas de<br>Reflexión</figcaption>
           </figure>
           <figure class="col">
+            <img src="images/home/mesasE.png" alt="Feria cultural">
+            <figcaption>Mesas con<br>expertos</figcaption>
+          </figure>
+          <figure class="col">
             <img src="images/home/CEMEL_Talleres.png" alt="Talleres y Presentaciones" class="img-fluid">
             <figcaption>Talleres /<br>Presentaciones</figcaption>
           </figure>
@@ -189,6 +219,11 @@
             <img src="images/home/CEMEL_FeriaCultural.png" alt="Feria cultural">
             <figcaption>Feria<br>Cultural</figcaption>
           </figure>
+          <figure class="col">
+            <img src="images/home/analisis.png" alt="Feria cultural">
+            <figcaption>Análisis y reflexión entre expertos</figcaption>
+          </figure>
+          
         </div>
       </div>
   </div>
@@ -211,7 +246,7 @@
         </div>
       </div>
       <div class="row opcionesDos">
-        <div class="col"><p><span class="iniciales">Teet</span>Taller experiencia<br>educativa transformadora</p></div>
+        <div class="col"><p><span class="iniciales unaLetra">T</span>Talleres</p></div>
         <div class="col"><p><span class="iniciales">Foto</span>Exposición<br>fotográfica</p></div>
       </div>
     </div>
