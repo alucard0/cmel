@@ -14,6 +14,12 @@
   font-style: italic;
 }
 @font-face {
+  font-family: "IndivisaTextSans-SC";
+  src: url("fonts/IndivisaTextSans-BoldSc.otf");
+  font-variant: small-caps;
+  font-weight: 900;
+}
+@font-face {
   font-family: "IndivisaTextSans";
   src: url("fonts/IndivisaTextSans-Bold.otf");
   font-weight: 700;
@@ -179,6 +185,7 @@ section#informacionImportante p.titulo{
 a:hover,
 a:focus {
   color: #001288;
+  text-decoration: none;
 }
 /*Botones*/
 
@@ -318,7 +325,7 @@ section#welcome div.welcomeText{
   border-left: 2px solid #000;
 }
 section#welcome div.welcomeText p:nth-child(1),
-section#informacionImportante div.infoFechas p.info.fecha span.numeroFecha{
+section#informacionImportante div.infoFechas p.numeroFecha{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 700;
 }
@@ -397,7 +404,7 @@ section#ejesTematicos hr, section#program hr{
 section#ejesTematicos div.contenidoEjes{
   border-right: 2px #c30824 solid;
 }
-section#ejesTematicos div p.ejesInfo, section#informacionImportante div.infoFechas p.info {
+section#ejesTematicos div p.ejesInfo{
   line-height: 20px;
   font-size: 20px;
   margin-bottom: 60px;
@@ -405,9 +412,7 @@ section#ejesTematicos div p.ejesInfo, section#informacionImportante div.infoFech
 section#informacionImportante{
   padding: 50px;
 }
-section#informacionImportante div.infoFechas p.info{
-  margin-bottom: 20px;
-}
+
 section#informacionImportante{
   background: #b8c1cc;
 }
@@ -419,26 +424,30 @@ section#informacionImportante div.infoFechas p{
   text-align: right;
 }
 
-section#informacionImportante div.infoFechas p.info span.numeroFecha{
-  float: right;
+section#informacionImportante div.infoFechas p.info{
+  line-height: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+section#informacionImportante div.infoFechas p.numeroFecha{
   font-size: 40px;
   line-height: 30px;
-  padding-top: 0;
-  padding-right: 0;
-  padding-left: 10px;
+  text-align: center;
 }
-section#informacionImportante div.infoFechas p.info span.numeroFecha.dosFechas{
-  font-size: 40px;
-  line-height: 30px;
-}
-section#informacionImportante div.infoFechas div.dosMeses{
-   margin-left: 25px;
-}
-section#informacionImportante div.infoFechas p.info.fecha{
+
+section#informacionImportante div.infoFechas p.fecha{
   font-size: 16px;
   line-height: 16px;
-  margin-left: -20px;
+  text-align: left;
 }
+
+section#informacionImportante div.infoFechas p.dosFechas{
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+}
+
 section#informacionImportante div.infoCongreso{
   border-right: 2px #000 solid;
 }
@@ -451,9 +460,36 @@ section#informacionImportante div.infoCongreso p.opcion span.titulo{
   color: #fff;
 }
 
+section#informacionImportante div.bgAzul{
+  background: #001288;
+  padding: 20px 60px;
+}
+section#informacionImportante  div.bgAzul p.info,
+section#informacionImportante  div.bgAzul p.numeroFecha,
+section#informacionImportante  div.bgAzul p.fecha{
+  color: #fff;
+  margin-bottom: 0;
+}
+
+section#informacionImportante  div.bgAzul p.info{
+  font-family: "IndivisaTextSans-SC",sans-serif;
+  font-variant: small-caps;
+  font-weight: 900;
+}
+section#informacionImportante  div.bgAzul p.info{
+  font-size: 22px;
+}
+
+section#informacionImportante div.bgAzul p.numeroFecha{
+    line-height: 30px;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
 section#comoParticipar{
   padding: 60px;
 }
+
 section#comoParticipar p.titulo,
 footer p.hashtag,
 section#informacionImportante div.infoCongreso p.opcion,
@@ -461,6 +497,9 @@ section#informacionImportante div.infoFechas p.info{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 900;
 }
+
+
+
 section#comoParticipar p.titulo{
   font-size: 60px;
   line-height: 50px;
@@ -486,15 +525,7 @@ section#comoParticipar figure{
 section#comoParticipar p {
   font-size: 18px;
 }
-section#comoParticipar p span.iniciales.dosLetras{
-  padding: 5px 22px;
-}
-section#comoParticipar p span.iniciales.unaLetra{
-  padding: 5px 24.5px;
-}
-section#comoParticipar div.opcionesDos{
-  margin-top: 50px;
-}
+
 section#program hr.red{
   border-top: 2px solid #c30824 ;
   margin: 1rem 0 1rem auto;
@@ -745,6 +776,21 @@ footer div ul.listaEscuelas li {
     font-size: 40px;
     line-height: 40px;
   }
+  section#informacionImportante {
+    padding: 30px;
+  }
+  section#informacionImportante div.infoCongreso{
+    border-right: none;
+  }
+  section#informacionImportante div.bgAzul {
+    padding: 20px 10px;
+  }
+  section#informacionImportante div.bgAzul p.info{
+    font-size: 16px;
+  }
+  section#informacionImportante div.infoFechas p.dosFechas{
+    line-height: 16px;
+  }
   section#program {
     padding: 10px;
   }
@@ -767,6 +813,8 @@ footer div ul.listaEscuelas li {
   section#registrationForm p.title {
     font-size: 50px;
   }
+
+
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px)  {

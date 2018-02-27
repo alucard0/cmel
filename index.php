@@ -79,22 +79,9 @@
     </div>
     <div class="col-12 col-sm-6">
       <h1>Congreso Mundial<br>de Educación Lasaliana</h1>
-      <h2>La Educación lasaliana<br>para el S. XXI.</h2>
+      <h2>La Educación Lasaliana<br>para el S. XXI</h2>
       <p>La Salle: una vida, un corazón, un compromiso.</p>
       <hr class="rojo">
-      <p class="fecha"> 14 al 16 de marzo de 2019</p>
-    </div>
-  </div>
-</section>
-<section id="home" class="container-fluid">
-  <div class="row justify-content-center">
-    <div class="col-12 col-sm-6">
-      <figure><img src="images/home/CEMEL_Logo300.png" alt="300" class="img-fluid"></figure>
-    </div>
-    <div class="col-12 col-sm-6">
-      <h1>Congreso Mundial<br>de Educación Lasaliana</h1>
-      <h2>La Educación lasaliana<br>para el S. XXI.</h2>
-      <p>La Salle: una vida, un corazón, un compromiso.</p>
       <p class="fecha"> 14 al 16 de marzo de 2019</p>
     </div>
   </div>
@@ -143,45 +130,58 @@
     <div class="col-12 col-sm-7 infoFechas">
       <p class="titulo">Fechas<br>importantes</p>
       <div class="row">
-        <div class="col-5 col-sm-5">
+        <div class="col-6 col-sm-5">
           <p class="info">Lanzamiento<br>de la convocatoria</p>
         </div>
-        <div class="col-4 col-sm-4">
-          <p class="info fecha"><span class="numeroFecha">1</span>marzo<br>2018</p>
+        <div class="col-3 col-sm-3">
+          <p class="numeroFecha">1</p>
+        </div>
+        <div class="col-3 col-sm-3">
+          <p class="fecha">marzo 2018</p>
         </div>
 
-        <div class="col-5 col-sm-5">
+        <div class="col-6 col-sm-5">
           <p class="info">Recepción de taller<br>/ ponencia</p>
         </div>
-        <div class="col-5 dosMeses col-sm-5">
-          <p class="info fecha"><span class="numeroFecha dosFechas">26 - 1</span>marzo<br>2018</p>
+        <div class="col-3 col-sm-3">
+          <p class="numeroFecha">26<br>1</p>
         </div>
-        <div class="col-1 col-sm-1">
-          <p class="info fecha text-left">sept<br>2018</p>
+        <div class="col-3 col-sm-4">
+          <p class="dosFechas">marzo 2018<br>septiembre 2018</p>
         </div>
 
-        <div class="col-5 col-sm-5">
+        <div class="col-6 col-sm-5">
           <p class="info">Inscripciones<br>generales</p>
         </div>
-        <div class="col-4 col-sm-4">
-          <p class="info fecha"><span class="numeroFecha">8</span>octubre<br>2018</p>
+        <div class="col-3 col-sm-3">
+          <p class="numeroFecha">8</p>
+        </div>
+        <div class="col-3 col-sm-3">
+          <p class="fecha">octubre 2018</p>
         </div>
 
-        <div class="col-5 col-sm-5">
+        <div class="col-6 col-sm-5">
           <p class="info">Cierre de<br>inscripciones</p>
         </div>
-        <div class="col-4 col-sm-4">
-          <p class="info fecha"><span class="numeroFecha">8</span>octubre<br>2018</p>
+        <div class="col-3 col-sm-3">
+          <p class="numeroFecha">8</p>
+        </div>
+        <div class="col-3 col-sm-3">
+          <p class="fecha">octubre 2018</p>
         </div>
       </div>
       
-      
-      <div class="row">
-        <div class="col-5 col-sm-5">
-          <p class="info">Días del congreso<br>inscripciones</p>
-        </div>
-        <div class="col-6 col-sm-6">
-          <p class="info fecha"><span class="numeroFecha">14 al 16</span>marzo<br>2019</p>
+      <div class="bgAzul">
+        <div class="row">
+          <div class="col-6 col-sm-6">
+            <p class="info">Días del congreso<br>inscripciones</p>
+          </div>
+          <div class="col-3 col-sm-3">
+            <p class="numeroFecha">14<br>16</p>
+          </div>
+          <div class="col-3 col-sm-3">
+            <p class="fecha">marzo 2019</p>
+          </div>
         </div>
       </div>
     </div>
@@ -229,27 +229,46 @@
   </div>
 </section>
 <section id="comoParticipar" class="container-fluid">
-  <p class="titulo">¿Cómo puedo<br>participar?</p>
   <div class="row">
-    <div class="col-12 col-sm-5">
-      <a href="#">
-        <figure><img src="images/home/CEMEL_PDF.png" alt="descarga PDF" class="img-fluid"></figure>
-      </a>
-    </div>
-    <div class="col-12 col-sm-7 opciones">
+    <col-12 class="col-sm-5">
+      <p class="titulo">¿Cómo puedo<br>participar?</p>
+    </col-12>
+    <col-12 class="col-sm-7">
       <div class="row">
         <div class="col">
-          <p><span class="iniciales">Peet</span>Ponencia experiencia<br>educativa transformadora</p>
+          <a href="descargables/es/ICLE_CONVOCATORIA-PONENCIAS-EDUCATIVAS_ES.pdf" target="_blank">
+            <figure>
+              <figcaption>Ponencias<br>educativas</figcaption>
+              <img src="images/home/descarga.png" alt="" class="img-fluid"> 
+            </figure>
+          </a>
         </div>
         <div class="col">
-          <p><span class="iniciales dosLetras">Pi</span>Ponencias<br>de investigación</p>
+          <a href="descargables/es/ICLE_CONVOCATORIA-PONENCIAS-INVESTIVACION_ES.pdf" target="_blank">
+            <figure>
+              <figcaption>Ponencias de<br>investigación</figcaption>
+              <img src="images/home/descarga.png" alt="" class="img-fluid"> 
+            </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="descargables/es/ICLE_CONVOCATORIA TALLERES_ES.pdf" target="_blank">
+            <figure>
+              <figcaption>Convocatoria<br>Talleres</figcaption>
+              <img src="images/home/descarga.png" alt="" class="img-fluid"> 
+            </figure>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#" target="_blank">
+            <figure>
+              <figcaption>Exposición<br>fotográfica</figcaption>
+              <img src="images/home/descarga.png" alt="" class="img-fluid"> 
+            </figure>
+          </a>
         </div>
       </div>
-      <div class="row opcionesDos">
-        <div class="col"><p><span class="iniciales unaLetra">T</span>Talleres</p></div>
-        <div class="col"><p><span class="iniciales">Foto</span>Exposición<br>fotográfica</p></div>
-      </div>
-    </div>
+    </col-12>
   </div>
 </section>
 <section id="program" class="container-fluid">
