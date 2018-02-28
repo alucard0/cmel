@@ -373,8 +373,13 @@
 
   <form id="registroForm">
     <div class="form-row">
+      <div class="col-md-6 infoPreRegistro d-block d-sm-none">
+        <p>La tarifa de inscripción para participar en el CMEL es de <strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.</p>
+        <p>La inscripción se realizará del 8 de octubre de 2018 al 15 de febrero de 2019 en esta misma página.</p>
+      </div>
       <div class="col-md-6">
         <div class="form-row">
+
           <div class="col-2 col-sm-2">
             <figure class="text-right">
               <img src="images/form/Formulario_Nombre.png" alt="">
@@ -412,13 +417,18 @@
           <div class="form-group col-10 col-sm-10">
               <input type="email" class="form-control" id="cmpMail" name="cmpMail" placeholder="e-mail">
           </div>
+          
+          <div class="col-12">
+            <div class="form-row justify-content-end">
+              <button type="button" class="btn btn-primary btn-lg" id="btnEnviar">Registrar</button>
+            </div>
+          </div>
 
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="form-row align-items-center filaBoton">
-          <button type="button" class="btn btn-primary btn-lg mx-auto" id="btnEnviar">Enviar</button>
-        </div>
+      <div class="col-md-6 infoPreRegistro d-none d-sm-block">
+        <p>La tarifa de inscripción para participar en el CMEL es de <strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.</p>
+        <p>La inscripción se realizará del 8 de octubre de 2018 al 15 de febrero de 2019 en esta misma página.</p>
       </div>
     </div>
   </form>
