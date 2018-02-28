@@ -260,7 +260,7 @@
           </a>
         </div>
         <div class="col">
-          <a href="#" target="_blank">
+          <a href="javascript: window.location.replace('descargables/es/exposicionFotografica.zip');"  id="zipDownload">
             <figure>
               <figcaption>Exposición<br>fotográfica</figcaption>
               <img src="images/home/descarga.png" alt="" class="img-fluid"> 
