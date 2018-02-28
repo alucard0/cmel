@@ -634,6 +634,10 @@ section#registrationForm div.filaBoton{
 section#registrationForm input{
   height: 40px;
 }
+section#registrationForm div.infoPreRegistro p{
+  color: #000;
+  padding-left: 20px;
+}
 /*Fin Contenido*/
 
 /*Footer*/
