@@ -26,6 +26,9 @@ $( "#registroForm" ).validate({
     cmpMail: {
     	required: true,
 		email: true
+    },
+	cmpRegion: {
+		required: true
     }
   },
   messages: {
@@ -42,7 +45,10 @@ $( "#registroForm" ).validate({
   	  cmpMail:{
   	  	required: "Campo Requerido",
   	  	email: "Ingresa un email válido"
-  	  }
+  	  },
+	  cmpRegion: {
+		required: "Seleccione una región"
+	  }
 	}
 });
 
@@ -83,3 +89,4 @@ jQuery(function($){
     }
   });
 });
+

@@ -400,6 +400,7 @@
           </div>
           <div class="form-group col-10 col-sm-10">
 			  <select class="form-control" id="cmpRegion" name="cmpRegion">
+				<option value="" selected disabled>Región</option>
 				<?php include 'controlador/ControladorRegiones.php'; ?>
 			  </select> 
           </div>
@@ -427,15 +428,18 @@
 
 <!-- Ventana Exito -->
 <div class="modal fade" id="Ventana_Exito" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
     
       <!-- Contenido Ventana -->
       <div class="modal-content">
         <div class="modal-header">
-			<h4 class="modal-title">Registro Correcto.</h4>
-        </div>
+			<div class="modal-title">
+			<h4 class="text-align: center">Registro Exitoso.</h4>	
+			<p class="text-center">Te esperamos en México</p>
+			</div>
+		</div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
         </div>
       </div>
       
