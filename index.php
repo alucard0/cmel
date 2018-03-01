@@ -80,7 +80,7 @@
     <div class="col-12 col-sm-6">
       <h1>Congreso Mundial<br>de Educación Lasaliana</h1>
       <h2>La Educación Lasaliana<br>para el S. XXI</h2>
-      <p>La Salle: una vida, un corazón, un compromiso.</p>
+      <p>La Salle: un corazón, un compromiso, una vida.</p>
       <hr class="rojo">
       <p class="fecha"> 14 al 16 de marzo de 2019</p>
     </div>
@@ -106,7 +106,7 @@
         <p>Los interesados pueden consultar el sitio en la red (<a href="http://www.lasalle.org/ICLE300" target="_blak" rel="noopener">www.lasalle.org/ICLE300</a>) creado para ofrecer información amplia y detallada acerca del Congreso. En el mismo sitio podrán inscribirse, a partir del 8 de octubre de 2018 y hasta el 15 de febrero de 2019.</p>
 
         <p>Inspirados en San Juan Bautista De La Salle, específicamente en su determinación a responder con creatividad a las necesidades educativas de los más vulnerables, unamos nuestras voces en el Congreso Mundial de Educación Lasaliana, para decir al mundo y a los jóvenes que seguimos empeñados en la construcción de un futuro más justo y fraterno para todos. Nuestra asociación, fuerte y comprometida, dará credibilidad a nuestra palabra que da razones a la esperanza.</p>
-        <p class="despedida">Lasallanos de PARC, RELAN, RELAF, RELEM y RELAL, los esperamos en México. ¡Nuestra casa es su casa!</p>
+        <p class="despedida">Lasalianos de PARC, RELAN, RELAF, RELEM y RELAL, los esperamos en México. ¡Nuestra casa es su casa!</p>
        
         <p class="indivisa">Indivisa Manent</p>
         <p>H. Gustavo Ramírez B., FSC<br>Consejero General<br>Coordinador General de los eventos del Tricentenario</p>
@@ -164,10 +164,10 @@
           <p class="info">Cierre de<br>inscripciones</p>
         </div>
         <div class="col-3 col-sm-3">
-          <p class="numeroFecha">8</p>
+          <p class="numeroFecha">15</p>
         </div>
         <div class="col-3 col-sm-3">
-          <p class="fecha">octubre 2018</p>
+          <p class="fecha">febrero 2019</p>
         </div>
       </div>
       
@@ -212,8 +212,8 @@
             <figcaption>Mesas con<br>expertos</figcaption>
           </figure>
           <figure class="col">
-            <img src="images/home/CEMEL_Talleres.png" alt="Talleres y Presentaciones" class="img-fluid">
-            <figcaption>Talleres /<br>Presentaciones</figcaption>
+            <img src="images/home/CEMEL_Talleres.png" alt="Talleres y Ponencias" class="img-fluid">
+            <figcaption>Talleres /<br>Ponencias</figcaption>
           </figure>
           <figure class="col">
             <img src="images/home/CEMEL_FeriaCultural.png" alt="Feria cultural">
@@ -295,17 +295,17 @@
           <div class="col-5 col-sm-3 col-md-5">10:30 11:00</div>
           <div class="col-7 col-sm-9 col-md-7">Descanso</div>
           <div class="col-5 col-sm-3 col-md-5">11:00 12:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesa de díalogo con expertos</div>
+          <div class="col-7 col-sm-9 col-md-7">Mesa de diálogo con expertos</div>
           <div class="col-5 col-sm-3 col-md-5">12:00 13:15</div>
           <div class="col-7 col-sm-9 col-md-7">Mesas de Reflexión</div>
           <div class="col-5 col-sm-3 col-md-5">13:15 14:30</div>
           <div class="col-7 col-sm-9 col-md-7">Comida</div>
           <div class="col-5 col-sm-3 col-md-5">14:30 15:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 1 / Presentaciones 1</div>
+          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 1 / Ponencia 1</div>
           <div class="col-5 col-sm-3 col-md-5">15:30 15:45</div>
           <div class="col-7 col-sm-9 col-md-7">Descanso</div>
           <div class="col-5 col-sm-3 col-md-5">15:45 16:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 2 / Presentaciones 2</div>
+          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 2 / Ponencia 2</div>
           <div class="col-5 col-sm-3 col-md-5">16:45 17:30</div>
           <div class="col-7 col-sm-9 col-md-7">Mesa Magistral de Reflexión. Sesión de Preguntas</div>
         </div>
@@ -328,11 +328,11 @@
           <div class="col-5 col-sm-3 col-md-5">12:45 14:00</div>
           <div class="col-7 col-sm-9 col-md-7">Comida</div>
           <div class="col-5 col-sm-3 col-md-5">14:00 15:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 3 / Presentaciones 3</div>
+          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 3 / Ponencia 3</div>
           <div class="col-5 col-sm-3 col-md-5">15:00 15:15</div>
           <div class="col-7 col-sm-9 col-md-7">Descanso</div>
           <div class="col-5 col-sm-3 col-md-5">15:15 16:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 4 / Presentaciones 4</div>
+          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 4 / Ponencia 4</div>
           <div class="col-5 col-sm-3 col-md-5">16:15 16:45</div>
           <div class="col-7 col-sm-9 col-md-7">Foto conmemorativa</div>
           <div class="col-5 col-sm-3 col-md-5">16:45 17:30</div>
