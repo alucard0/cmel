@@ -431,21 +431,23 @@ section#informacionImportante div.infoFechas p.info{
 }
 
 section#informacionImportante div.infoFechas p.numeroFecha{
-  font-size: 40px;
-  line-height: 30px;
-  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 10px;
 }
 
-section#informacionImportante div.infoFechas p.fecha{
-  font-size: 16px;
-  line-height: 16px;
+section#informacionImportante div.infoFechas span.fecha{
+  font-size: 20px;
+  line-height: 20px;
   text-align: left;
 }
 
 section#informacionImportante div.infoFechas p.dosFechas{
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 20px;
   text-align: left;
+  margin-top: 0;
 }
 
 section#informacionImportante div.infoCongreso{
@@ -481,9 +483,9 @@ section#informacionImportante  div.bgAzul p.info{
 }
 
 section#informacionImportante div.bgAzul p.numeroFecha{
-    line-height: 30px;
-    font-size: 30px;
-    margin-top: -10px;
+    line-height: 20px;
+    font-size: 20px;
+    margin-top: 0;
 }
 
 section#comoParticipar{

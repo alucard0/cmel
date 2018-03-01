@@ -130,57 +130,45 @@
     <div class="col-12 col-sm-7 infoFechas">
       <p class="titulo">Fechas<br>importantes</p>
       <div class="row">
-        <div class="col-6 col-sm-5">
+        
+        <div class="col-6 col-sm-6">
           <p class="info">Lanzamiento<br>de la convocatoria</p>
         </div>
-        <div class="col-3 col-sm-3">
-          <p class="numeroFecha">1</p>
-        </div>
-        <div class="col-3 col-sm-3">
-          <p class="fecha">marzo 2018</p>
+        <div class="col-6 col-sm-6">
+          <p class="numeroFecha">1 <span class="fecha">marzo 2018</span></p>
         </div>
 
-        <div class="col-6 col-sm-5">
+        <div class="col-6 col-sm-6">
           <p class="info">Recepción de taller<br>/ ponencia</p>
         </div>
-        <div class="col-3 col-sm-3">
-          <p class="numeroFecha">26<br>1</p>
-        </div>
-        <div class="col-3 col-sm-4">
-          <p class="dosFechas">marzo 2018<br>septiembre 2018</p>
+        <div class="col-6 col-sm-6">
+          <p class="numeroFecha dosFechas">26 <span class="fecha">marzo 2018  al</span><br>1 <span class="fecha">septiembre 2018</span></p>
         </div>
 
-        <div class="col-6 col-sm-5">
+
+        <div class="col-6 col-sm-6">
           <p class="info">Inscripciones<br>generales</p>
         </div>
-        <div class="col-3 col-sm-3">
-          <p class="numeroFecha">8</p>
+        <div class="col-6 col-sm-6">
+          <p class="numeroFecha">8 <span class="fecha">octubre 2018</span></p>
         </div>
-        <div class="col-3 col-sm-3">
-          <p class="fecha">octubre 2018</p>
-        </div>
+        
 
-        <div class="col-6 col-sm-5">
+        <div class="col-6 col-sm-6">
           <p class="info">Cierre de<br>inscripciones</p>
         </div>
-        <div class="col-3 col-sm-3">
-          <p class="numeroFecha">15</p>
-        </div>
-        <div class="col-3 col-sm-3">
-          <p class="fecha">febrero 2019</p>
+        <div class="col-6 col-sm-6">
+          <p class="numeroFecha">15 <span class="fecha">febrero 2019</span></p>
         </div>
       </div>
       
       <div class="bgAzul">
         <div class="row">
           <div class="col-6 col-sm-6">
-            <p class="info">Días del congreso<br>inscripciones</p>
+            <p class="info">Días del congreso</p>
           </div>
-          <div class="col-3 col-sm-3">
-            <p class="numeroFecha">14<br>16</p>
-          </div>
-          <div class="col-3 col-sm-3">
-            <p class="fecha">marzo 2019</p>
+          <div class="col-6 col-sm-6">
+            <p class="numeroFecha">14 al 16 <span class="fecha">marzo 2019</span></p>
           </div>
         </div>
       </div>
