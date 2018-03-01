@@ -817,7 +817,9 @@ footer div ul.listaEscuelas li {
   section#registrationForm p.title {
     font-size: 50px;
   }
-
+  footer p.hashtag {
+      font-size: 30px;
+  }
 
 }
 /*Small devices (landscape phones, 576px and up)*/
