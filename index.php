@@ -296,7 +296,7 @@
           <div class="col-5 col-sm-3 col-md-5">15:45 16:45</div>
           <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 2 / Ponencia 2</div>
           <div class="col-5 col-sm-3 col-md-5">16:45 17:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesa Magistral de Reflexión. Sesión de Preguntas</div>
+          <div class="col-7 col-sm-9 col-md-7">Análisis y reflexión entre expertos. Sesión de Preguntas</div>
         </div>
       </div>
       <div class="col-sm-4">
@@ -325,7 +325,7 @@
           <div class="col-5 col-sm-3 col-md-5">16:15 16:45</div>
           <div class="col-7 col-sm-9 col-md-7">Foto conmemorativa</div>
           <div class="col-5 col-sm-3 col-md-5">16:45 17:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesa Magistral de Reflexión. Sesión de Preguntas</div>
+          <div class="col-7 col-sm-9 col-md-7">Análisis y reflexión entre expertos. Sesión de Preguntas</div>
         </div>
       </div>
       <div class="col-sm-4">
