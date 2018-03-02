@@ -1,4 +1,5 @@
 <?php
+include_once 'ConectaBD.php';
 /**
 * 	@author Amilkhael Chávez Delgado;
 *	Documento: Clase que modela la lógica de negocio de Aspirante
@@ -21,7 +22,7 @@
 			$datos_aspirante->correo = $bdconectada->escapar_datos ($datos_aspirante->correo);
 			$datos_aspirante->celular = $bdconectada->escapar_datos ($datos_aspirante->institucion);
 			
-			$query = 'INSERT INTO PARTICIPANTE (NOMBRE, EMAIL, INSTITUCION, REGION_FK) VALUES ("'.$datos_aspirante->nombre.'","'.$datos_aspirante->correo.'","'.$datos_aspirante->institucion.'",(SELECT id FROM REGIONES WHERE NOMBRE = "'.$datos_aspirante->region.'"))';
+			$query = 'INSERT INTO participante (NOMBRE, EMAIL, INSTITUCION, REGION_FK) VALUES ("'.$datos_aspirante->nombre.'","'.$datos_aspirante->correo.'","'.$datos_aspirante->institucion.'",(SELECT id FROM regiones WHERE NOMBRE = "'.$datos_aspirante->region.'"))';
 			$bdconectada->escribir($query);
 			$bdconectada->desconectar();
 		}
