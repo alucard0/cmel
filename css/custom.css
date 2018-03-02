@@ -269,6 +269,7 @@ section#home p{
   margin-bottom: 10px;
 }
 section#home p.fecha,section#registrationForm input,
+section#registrationForm select,
 section#home p.fecha,section#registrationForm button,
 section#informacionImportante div.infoFechas p.info.fecha{
   font-family: IndivisaTextSans, sans-serif;
@@ -324,6 +325,14 @@ section#welcome div.welcomeText{
   margin: 50px 40px;
   border-left: 2px solid #000;
 }
+
+section#welcome div.welcomeText span.nombre{
+  font-size: 24px;
+}
+section#welcome div.welcomeText p.firma{
+  font-size: 18px;
+}
+
 section#welcome div.welcomeText p:nth-child(1),
 section#informacionImportante div.infoFechas p.numeroFecha{
   font-family: IndivisaTextSans, sans-serif;
@@ -332,9 +341,16 @@ section#informacionImportante div.infoFechas p.numeroFecha{
 section#welcome div.welcomeText p:nth-child(1){
   font-size: 25px;
 }
+
+p.indivisa,p.firma{
+  text-align: right;
+}
+
+
 section#welcome p.despedida
 {
-  text-align: right;
+  margin-top: 30px;
+  text-align: left;
   font-size: 25px;
 }
 section#ejesTematicos{

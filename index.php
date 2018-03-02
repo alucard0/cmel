@@ -109,14 +109,56 @@
         <p class="despedida">Lasalianos de PARC, RELAN, RELAF, RELEM y RELAL, los esperamos en México. ¡Nuestra casa es su casa!</p>
        
         <p class="indivisa">Indivisa Manent</p>
-        <p>H. Gustavo Ramírez B., FSC<br>Consejero General<br>Coordinador General de los eventos del Tricentenario</p>
+        <p class="firma"><span class="nombre">H. Gustavo Ramírez B., <i>fsc</i></span><br>Consejero General<br>Coordinador General de los eventos del Tricentenario</p>
       </div>
     </div>
   </div>
 </section>
+
+<section id="ejesTematicos" class="container-fluid">
+  <div class="row">
+      <div class="col-12 col-sm-4 contenidoEjes">
+        <p class="titulo">Ejes temáticos</p>
+        <p class="ejesInfo"><span class="numeroEje">1</span>Retos<br>Educativos</p>
+        <p class="ejesInfo"><span class="numeroEje">2</span>Asociación Lasallista y<br>Comunidad Educativa</p>
+        <p class="ejesInfo"><span class="numeroEje">3</span>La Declaración<br>de la Pedagogía Lasaliana</p>
+      </div>
+      <div class="col-12 col-sm-8 infoTemas">
+        <p class="titulo">¿Qué voy a encontrar<br> en el Congreso?</p>
+        <hr>
+        <div class="row contenidoCongreso">
+          <figure class="col">
+            <img src="images/home/CEMEL_Conferencias.png" alt="Conferencias" class="img-fluid">
+            <figcaption>Conferencias<br>Magistrales</figcaption>
+          </figure>
+          <figure class="col">
+            <img src="images/home/CEMEL_Mesas.png" alt="Mesas de reflexión" class="img-fluid">
+            <figcaption>Mesas de<br>Reflexión</figcaption>
+          </figure>
+          <figure class="col">
+            <img src="images/home/mesasE.png" alt="Feria cultural">
+            <figcaption>Mesas con<br>expertos</figcaption>
+          </figure>
+          <figure class="col">
+            <img src="images/home/CEMEL_Talleres.png" alt="Talleres y Ponencias" class="img-fluid">
+            <figcaption>Talleres /<br>Ponencias</figcaption>
+          </figure>
+          <figure class="col">
+            <img src="images/home/CEMEL_FeriaCultural.png" alt="Feria cultural">
+            <figcaption>Feria<br>Cultural</figcaption>
+          </figure>
+          <figure class="col">
+            <img src="images/home/analisis.png" alt="Feria cultural">
+            <figcaption>Análisis y reflexión entre expertos</figcaption>
+          </figure>
+          
+        </div>
+      </div>
+  </div>
+</section>
 <section class="container-fluid" id="informacionImportante">
   <div class="row">
-    <div class="col-12 col-sm-5 infoCongreso">
+    <div class="col-12 col-sm-7 infoCongreso">
       <p class="titulo">Congreso Mundial<br>de Educación Lasaliana</p>
 
       <p class="opcion"><span class="titulo">Tema:</span><br>La Educación Lasaliana para el S. XXI</p>
@@ -127,7 +169,7 @@
       <p class="opcion"><span class="titulo">Dirigido a:</span><br>Educadores Lasalianos de todo el mundo</p>
 
     </div>
-    <div class="col-12 col-sm-7 infoFechas">
+    <div class="col-12 col-sm-5 infoFechas">
       <p class="titulo">Fechas<br>importantes</p>
       <div class="row">
         
@@ -173,47 +215,6 @@
         </div>
       </div>
     </div>
-  </div>
-</section>
-<section id="ejesTematicos" class="container-fluid">
-  <div class="row">
-      <div class="col-12 col-sm-4 contenidoEjes">
-        <p class="titulo">Ejes temáticos</p>
-        <p class="ejesInfo"><span class="numeroEje">1</span>Retos<br>Educativos</p>
-        <p class="ejesInfo"><span class="numeroEje">2</span>Asociación Lasallista y<br>Comunidad Educativa</p>
-        <p class="ejesInfo"><span class="numeroEje">3</span>La Declaración<br>de la Pedagogía Lasaliana</p>
-      </div>
-      <div class="col-12 col-sm-8 infoTemas">
-        <p class="titulo">¿Qué voy a encontrar<br> en el Congreso?</p>
-        <hr>
-        <div class="row contenidoCongreso">
-          <figure class="col">
-            <img src="images/home/CEMEL_Conferencias.png" alt="Conferencias" class="img-fluid">
-            <figcaption>Conferencias<br>Magistrales</figcaption>
-          </figure>
-          <figure class="col">
-            <img src="images/home/CEMEL_Mesas.png" alt="Mesas de reflexión" class="img-fluid">
-            <figcaption>Mesas de<br>Reflexión</figcaption>
-          </figure>
-          <figure class="col">
-            <img src="images/home/mesasE.png" alt="Feria cultural">
-            <figcaption>Mesas con<br>expertos</figcaption>
-          </figure>
-          <figure class="col">
-            <img src="images/home/CEMEL_Talleres.png" alt="Talleres y Ponencias" class="img-fluid">
-            <figcaption>Talleres /<br>Ponencias</figcaption>
-          </figure>
-          <figure class="col">
-            <img src="images/home/CEMEL_FeriaCultural.png" alt="Feria cultural">
-            <figcaption>Feria<br>Cultural</figcaption>
-          </figure>
-          <figure class="col">
-            <img src="images/home/analisis.png" alt="Feria cultural">
-            <figcaption>Análisis y reflexión entre expertos</figcaption>
-          </figure>
-          
-        </div>
-      </div>
   </div>
 </section>
 <section id="comoParticipar" class="container-fluid">
@@ -263,7 +264,7 @@
     <div class="row no-gutters">
       <div class="col-12">
         <p class="text-right title">Programa</p>
-        <p class="text-right subtitle">14-26</p>
+        <p class="text-right subtitle">14-16</p>
         <hr>
       </div>
       
@@ -416,7 +417,7 @@
         </div>
       </div>
       <div class="col-md-6 infoPreRegistro d-none d-sm-block">
-        <p>La tarifa de inscripción para participar en el CMEL es de <strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.</p>
+        <p>La tarifa de inscripción para participar en el CMEL es de <br><strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.</p>
         <p>La inscripción se realizará del 8 de octubre de 2018 al 15 de febrero de 2019 en esta misma página.</p>
       </div>
     </div>
