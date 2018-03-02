@@ -23,7 +23,7 @@
 				<a href="http://www.lasalle.org/" target="_blank" rel="noopener"><figure><img src="images/footer/redlasalle.png" class="img-fluid" alt=""></figure></a>
 			</div>
 			<div class="col-12">
-				<p>Benjamín Franklin 45, Col. Condesa, C.P. 06140, México, Ciudad de México Tel. +52 1 5278-9500</p>
+				<p>Benjamín Franklin 45, Col. Condesa, C.P. 06140, México, Ciudad de México Tel. +52 (55) 5278 9500</p>
 			</div>
 		</div>
 		<div class="row justify-content-center legales">

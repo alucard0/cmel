@@ -243,7 +243,7 @@
         <div class="col">
           <a href="descargables/es/ICLE_CONVOCATORIA TALLERES_ES.pdf" target="_blank">
             <figure>
-              <figcaption>Convocatoria<br>Talleres</figcaption>
+              <figcaption>Convocatoria<br>talleres</figcaption>
               <img src="images/home/descarga.png" alt="" class="img-fluid"> 
             </figure>
           </a>
@@ -272,7 +272,7 @@
     <div class="row no-gutters">
       <div class="col-12 col-sm-4">
         <p class="day">Día 1</p>
-        <p class="date">Miércoles, Marzo 14</p>
+        <p class="date">Miércoles, marzo 14</p>
         <hr class="red">
         <div class="row no-gutters content">
           <div class="col-5 col-sm-3 col-md-5">08:00 09:00</div>
@@ -301,7 +301,7 @@
       </div>
       <div class="col-sm-4">
         <p class="day">Día 2</p>
-        <p class="date">Jueves, Marzo 15</p>
+        <p class="date">Jueves, marzo 15</p>
         <hr class="red">
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>
@@ -330,7 +330,7 @@
       </div>
       <div class="col-sm-4">
         <p class="day">Día 3</p>
-        <p class="date">Viernes, Marzo 16</p>
+        <p class="date">Viernes, marzo 16</p>
         <hr class="red">
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>
