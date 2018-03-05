@@ -51,11 +51,15 @@ $( "#registroForm" ).validate({
 	  }
 	}
 });
+// DYNAMICALLY over-ride any message
+   
 
 
 /*Funcion para Registrar al Aspirante*/
 jQuery(function($){
   $('#btnEnviar').on('click', function (ev) {
+  	$('#cmpNombre-error').addClass("lang");
+  	$('#cmpNombre-error').attr('key', 'value');
     /*Obtener los valores del formulario*/
     var nombre=$("#cmpNombre").val(); /*Obligatorio*/ 
     console.log(nombre);

@@ -177,7 +177,8 @@ p.despedida,
 section#ejesTematicos p.titulo,
 section#program p.day,
 section#registrationForm p.title,
-section#informacionImportante p.titulo{
+section#informacionImportante p.titulo,
+section#comoParticipar h5.card-title{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 900;
   font-style: italic;
@@ -194,7 +195,7 @@ a:focus {
 /*Fin General*/
 /*Menu*/
 nav.navbar.navbar-light{
-  background: #c4c5cacf;
+  background: #c4c5caf0;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -202,6 +203,12 @@ nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link{
   color: #fff;
   font-weight: 900;
   font-family: IndivisaTextSans, sans-serif;
+}
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate{
+  color: #001288;
+}
+nav.navbar.navbar-light div.navbar-nav a#en.nav-item.nav-link{
+  margin-left: 20px;
 }
 nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.active{
   text-decoration: underline;
@@ -271,7 +278,8 @@ section#home p{
 section#home p.fecha,section#registrationForm input,
 section#registrationForm select,
 section#home p.fecha,section#registrationForm button,
-section#informacionImportante div.infoFechas p.info.fecha{
+section#informacionImportante div.infoFechas p.info.fecha,
+nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.translate{
   font-family: IndivisaTextSans, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -519,7 +527,7 @@ section#informacionImportante div.infoFechas p.info{
 
 
 section#comoParticipar p.titulo{
-  font-size: 60px;
+  font-size: 58px;
   line-height: 50px;
   margin-bottom: 50px;
 }
@@ -539,6 +547,17 @@ section#comoParticipar div.opciones{
 }
 section#comoParticipar figure{
   text-align: center;
+}
+
+section#comoParticipar h5.card-title{
+  text-align: center;
+}
+
+section#comoParticipar div.card-body{
+  padding: 1px;
+}
+section#comoParticipar div.card{
+  border:none;
 }
 section#comoParticipar p {
   font-size: 18px;
@@ -655,6 +674,9 @@ section#registrationForm input{
 section#registrationForm div.infoPreRegistro p{
   color: #000;
   padding-left: 20px;
+}
+section#registrationForm label.error.valid{
+  display: none!important;
 }
 /*Fin Contenido*/
 

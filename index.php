@@ -185,36 +185,36 @@
         </div>
 
         <div class="col-6 col-sm-6">
-          <p class="info">Recepción de taller<br>/ ponencia</p>
+          <p class="info lang" key="fechas_importantes_2">Recepción de taller<br>/ ponencia</p>
         </div>
         <div class="col-6 col-sm-6">
-          <p class="numeroFecha dosFechas">26 <span class="fecha">marzo 2018  al</span><br>1 <span class="fecha">septiembre 2018</span></p>
+          <p class="numeroFecha dosFechas lang" key="fechas_importantes_fecha_2">26 <span class="fecha">marzo 2018  al</span><br>1 <span class="fecha">septiembre 2018</span></p>
         </div>
 
 
         <div class="col-6 col-sm-6">
-          <p class="info">Inscripciones<br>generales</p>
+          <p class="info lang" key="fechas_importantes_3">Inscripciones<br>generales</p>
         </div>
         <div class="col-6 col-sm-6">
-          <p class="numeroFecha">8 <span class="fecha">octubre 2018</span></p>
+          <p class="numeroFecha lang" key="fechas_importantes_fecha_3">8 <span class="fecha">octubre 2018</span></p>
         </div>
         
 
         <div class="col-6 col-sm-6">
-          <p class="info">Cierre de<br>inscripciones</p>
+          <p class="info lang" key="fechas_importantes_4">Cierre de<br>inscripciones</p>
         </div>
         <div class="col-6 col-sm-6">
-          <p class="numeroFecha">15 <span class="fecha">febrero 2019</span></p>
+          <p class="numeroFecha lang" key="fechas_importantes_fecha_4">15 <span class="fecha">febrero 2019</span></p>
         </div>
       </div>
       
       <div class="bgAzul">
         <div class="row">
           <div class="col-6 col-sm-6">
-            <p class="info">Días del congreso</p>
+            <p class="info lang" key="fechas_importantes_5">Días del congreso</p>
           </div>
           <div class="col-6 col-sm-6">
-            <p class="numeroFecha">14 al 16 <span class="fecha">marzo 2019</span></p>
+            <p class="numeroFecha lang" key="fechas_importantes_fecha_5">14 al 16 <span class="fecha">marzo 2019</span></p>
           </div>
         </div>
       </div>
@@ -223,51 +223,64 @@
 </section>
 <section id="comoParticipar" class="container-fluid">
   <div class="row">
-    <col-12 class="col-sm-5">
-      <p class="titulo">¿Cómo puedo<br>participar?</p>
-    </col-12>
-    <col-12 class="col-sm-7">
-      <div class="row">
-        <div class="col">
-          <a href="descargables/es/ICLE_CONVOCATORIA-PONENCIAS-EDUCATIVAS_ES.pdf" target="_blank">
+    <div class="col-sm-4">
+      <p class="titulo lang" key="como_participar_titulo">¿Cómo puedo<br>participar?</p>
+    </div>
+    <div class="col-sm-8">
+      <div class="card-deck">
+        
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title lang" key="como_participar_op_1">Ponencias<br>educativas</h5>
+          </div>
+          <a class="descargable" key="como_participar_descarga_1" href="descargables/es/ICLE_CONVOCATORIA-PONENCIAS-EDUCATIVAS_ES.pdf" target="_blank">
             <figure>
-              <figcaption>Ponencias<br>educativas</figcaption>
-              <img src="images/home/descarga.png" alt="" class="img-fluid"> 
+                <img src="images/home/descarga.png" alt="" class="img-fluid"> 
             </figure>
           </a>
         </div>
-        <div class="col">
-          <a href="descargables/es/ICLE_CONVOCATORIA-PONENCIAS-INVESTIVACION_ES.pdf" target="_blank">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title lang" key="como_participar_op_2">Ponencias de<br>investigación</h5>
+          </div>
+          <a class="descargable" key="como_participar_descarga_2" href="descargables/es/ICLE_CONVOCATORIA-PONENCIAS-INVESTIVACION_ES.pdf" target="_blank">
             <figure>
-              <figcaption>Ponencias de<br>investigación</figcaption>
-              <img src="images/home/descarga.png" alt="" class="img-fluid"> 
+                <img src="images/home/descarga.png" alt="" class="img-fluid"> 
             </figure>
           </a>
         </div>
-        <div class="col">
-          <a href="descargables/es/ICLE_CONVOCATORIA TALLERES_ES.pdf" target="_blank">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title lang" key="como_participar_op_3">Convocatoria<br>talleres</h5>
+          </div>
+          <a class="descargable" key="como_participar_descarga_3"  href="descargables/es/ICLE_CONVOCATORIA TALLERES_ES.pdf" target="_blank">
             <figure>
-              <figcaption>Convocatoria<br>talleres</figcaption>
-              <img src="images/home/descarga.png" alt="" class="img-fluid"> 
+                <img src="images/home/descarga.png" alt="" class="img-fluid"> 
             </figure>
           </a>
         </div>
-        <div class="col">
-          <a href="javascript: window.location.replace('descargables/es/exposicionFotografica.zip');"  id="zipDownload">
+        <div class="card">
+          
+          <div class="card-body">
+            <h5 class="card-title lang" key="como_participar_op_4">Exposición<br>fotográfica</h5>
+          </div>
+          <a class="descargable" key="como_participar_descarga_4" href="javascript: window.location.replace('descargables/es/exposicionFotografica.zip');"  id="zipDownload">
             <figure>
-              <figcaption>Exposición<br>fotográfica</figcaption>
-              <img src="images/home/descarga.png" alt="" class="img-fluid"> 
+                <img src="images/home/descarga.png" alt="" class="img-fluid"> 
             </figure>
           </a>
         </div>
       </div>
-    </col-12>
+    
+    </div>
   </div>
 </section>
 <section id="program" class="container-fluid">
     <div class="row no-gutters">
       <div class="col-12">
-        <p class="text-right title">Programa</p>
+        <p class="text-right title lang" key="programa_titulo">Programa</p>
         <p class="text-right subtitle">14-16</p>
         <hr>
       </div>
@@ -275,84 +288,84 @@
     </div>
     <div class="row no-gutters">
       <div class="col-12 col-sm-4">
-        <p class="day">Día 1</p>
-        <p class="date">Miércoles, marzo 14</p>
+        <p class="day lang" key="programa_d1_titulo">Día 1</p>
+        <p class="date lang" key="programa_d1_fecha">Miércoles, marzo 14</p>
         <hr class="red">
         <div class="row no-gutters content">
           <div class="col-5 col-sm-3 col-md-5">08:00 09:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Recepción</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_1">Recepción</div>
           <div class="col-5 col-sm-3 col-md-5">09:00 09:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Acto Inaugural</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_2">Acto Inaugural</div>
           <div class="col-5 col-sm-3 col-md-5">09:30 10:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Conferencia Magistral: Llamadas y respuestas educativas</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_3">Conferencia Magistral: Llamadas y respuestas educativas</div>
           <div class="col-5 col-sm-3 col-md-5">10:30 11:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Descanso</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_4">Descanso</div>
           <div class="col-5 col-sm-3 col-md-5">11:00 12:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesa de diálogo con expertos</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_5">Mesa de diálogo con expertos</div>
           <div class="col-5 col-sm-3 col-md-5">12:00 13:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesas de Reflexión</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_6">Mesas de Reflexión</div>
           <div class="col-5 col-sm-3 col-md-5">13:15 14:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Comida</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_7">Comida</div>
           <div class="col-5 col-sm-3 col-md-5">14:30 15:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 1 / Ponencia 1</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_8">Talleres Simultáneos 1 / Ponencia 1</div>
           <div class="col-5 col-sm-3 col-md-5">15:30 15:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Descanso</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_9">Descanso</div>
           <div class="col-5 col-sm-3 col-md-5">15:45 16:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 2 / Ponencia 2</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_10">Talleres Simultáneos 2 / Ponencia 2</div>
           <div class="col-5 col-sm-3 col-md-5">16:45 17:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Análisis y reflexión entre expertos. Sesión de Preguntas</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d1_sch_11">Análisis y reflexión entre expertos. Sesión de Preguntas</div>
         </div>
       </div>
       <div class="col-sm-4">
-        <p class="day">Día 2</p>
-        <p class="date">Jueves, marzo 15</p>
+        <p class="day lang" key="programa_d2_titulo">Día 2</p>
+        <p class="date lang" key="programa_d2_fecha">Jueves, marzo 15</p>
         <hr class="red">
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Oración. Recapitulación del día anterior</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_1">Oración. Recapitulación del día anterior</div>
           <div class="col-5 col-sm-3 col-md-5">09:15 10:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Conferencia Magistral: La Comunidad Educativa y la Asociación</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_2">Conferencia Magistral: La Comunidad Educativa y la Asociación</div>
           <div class="col-5 col-sm-3 col-md-5">10:00 10:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Descanso</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_3">Descanso</div>
           <div class="col-5 col-sm-3 col-md-5">10:30 11:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesa de diálogo con expertos</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_4">Mesa de diálogo con expertos</div>
           <div class="col-5 col-sm-3 col-md-5">11:30 12:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesas de Reflexión</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_5">Mesas de Reflexión</div>
           <div class="col-5 col-sm-3 col-md-5">12:45 14:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Comida</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_6">Comida</div>
           <div class="col-5 col-sm-3 col-md-5">14:00 15:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 3 / Ponencia 3</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_7">Talleres Simultáneos 3 / Ponencia 3</div>
           <div class="col-5 col-sm-3 col-md-5">15:00 15:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Descanso</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_8">Descanso</div>
           <div class="col-5 col-sm-3 col-md-5">15:15 16:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Talleres Simultáneos 4 / Ponencia 4</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_9">Talleres Simultáneos 4 / Ponencia 4</div>
           <div class="col-5 col-sm-3 col-md-5">16:15 16:45</div>
-          <div class="col-7 col-sm-9 col-md-7">Foto conmemorativa</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_10">Foto conmemorativa</div>
           <div class="col-5 col-sm-3 col-md-5">16:45 17:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Análisis y reflexión entre expertos. Sesión de Preguntas</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d2_sch_11">Análisis y reflexión entre expertos. Sesión de Preguntas</div>
         </div>
       </div>
       <div class="col-sm-4">
-        <p class="day">Día 3</p>
-        <p class="date">Viernes, marzo 16</p>
+        <p class="day lang" key="programa_d3_titulo">Día 3</p>
+        <p class="date lang" key="programa_d3_fecha">Viernes, marzo 16</p>
         <hr class="red">
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>
-          <div class="col-7 col-sm-9 col-md-7">Oración. Recapitulación del día anterior</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d3_sch_1">Oración. Recapitulación del día anterior</div>
           <div class="col-5 col-sm-3 col-md-5">09:15 10:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Conferencia Magistral: La Declaración de la Pedagogía lasallista</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d3_sch_2">Conferencia Magistral: La Declaración de la Pedagogía lasallista</div>
           <div class="col-5 col-sm-3 col-md-5">10:00 10:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Descanso</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d3_sch_3">Descanso</div>
           <div class="col-5 col-sm-3 col-md-5">10:30 11:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesas de diálogo con expertos</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d3_sch_4">Mesas de diálogo con expertos</div>
           <div class="col-5 col-sm-3 col-md-5">11:30 12:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Mesas de Reflexión por Regiones, Distritos, Sectores u Obra</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d3_sch_5">Mesas de Reflexión por Regiones, Distritos, Sectores u Obras</div>
           <div class="col-5 col-sm-3 col-md-5">12:30 13:30</div>
-          <div class="col-7 col-sm-9 col-md-7">Eucaristía</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d3_sch_6">Eucaristía</div>
           <div class="col-5 col-sm-3 col-md-5">13:30 14:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Clausura - Evento Artístico</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d3_sch_7">Clausura - Evento Artístico</div>
           <div class="col-5 col-sm-3 col-md-5">14:00</div>
-          <div class="col-7 col-sm-9 col-md-7">Comida</div>
+          <div class="col-7 col-sm-9 col-md-7 lang" key="programa_d3_sch_8">Comida</div>
         </div>
       </div>
     </div>
@@ -362,13 +375,13 @@
 
 
 <section id="registrationForm" class="container-fluid">
-  <p class="text-left title">Preregistro</p>
+  <p class="text-left title lang" key="registro_titulo">Preregistro</p>
 
   <form id="registroForm">
     <div class="form-row">
       <div class="col-md-6 infoPreRegistro d-block d-sm-none">
-        <p>La tarifa de inscripción para participar en el CMEL es de <strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.</p>
-        <p>La inscripción se realizará del 8 de octubre de 2018 al 15 de febrero de 2019 en esta misma página.</p>
+        <p class="lang" key="registro_p1">La tarifa de inscripción para participar en el CMEL es de <strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.</p>
+        <p class="lang" key="registro_p2">La inscripción se realizará del 8 de octubre de 2018 al 15 de febrero de 2019 en esta misma página.</p>
       </div>
       <div class="col-md-6">
         <div class="form-row">
@@ -379,7 +392,7 @@
             </figure>
           </div>
           <div class="form-group col-10 col-sm-10">
-              <input type="text" class="form-control" id="cmpNombre" name="cmpNombre" placeholder="Nombre">
+              <input type="text" class="form-control placeForm" key="registro_registro_in_1" id="cmpNombre" name="cmpNombre" placeholder="Nombre">
           </div>
 
           <div class="col-2 col-sm-2">
@@ -388,7 +401,7 @@
             </figure>
           </div>
           <div class="form-group col-10 col-sm-10">
-              <input type="text" class="form-control" id="cmpInstitucion" name="cmpInstitucion" placeholder="Institución">
+              <input type="text" class="form-control placeForm" key="registro_registro_in_2" id="cmpInstitucion" name="cmpInstitucion" placeholder="Institución">
           </div>
 
           <div class="col-2 col-sm-2">
@@ -398,7 +411,7 @@
           </div>
           <div class="form-group col-10 col-sm-10">
 			  <select class="form-control" id="cmpRegion" name="cmpRegion">
-				<option value="" selected disabled>Región</option>
+				<option value="" selected disabled class="lang" key="registro_registro_in_3">Región</option>
 				<?php include 'controlador/ControladorRegiones.php'; ?>
 			  </select> 
           </div>
@@ -409,20 +422,20 @@
             </figure>
           </div>
           <div class="form-group col-10 col-sm-10">
-              <input type="email" class="form-control" id="cmpMail" name="cmpMail" placeholder="e-mail">
+              <input type="email" class="form-control placeForm" key="registro_registro_in_4" id="cmpMail" name="cmpMail" placeholder="e-mail">
           </div>
           
           <div class="col-12">
             <div class="form-row justify-content-end">
-              <button type="button" class="btn btn-primary btn-lg" id="btnEnviar">Registrar</button>
+              <button type="button" class="btn btn-primary btn-lg lang" key="registro_boton" id="btnEnviar">Registrar</button>
             </div>
           </div>
 
         </div>
       </div>
       <div class="col-md-6 infoPreRegistro d-none d-sm-block">
-        <p>La tarifa de inscripción para participar en el CMEL es de <br><strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.</p>
-        <p>La inscripción se realizará del 8 de octubre de 2018 al 15 de febrero de 2019 en esta misma página.</p>
+        <p class="lang" key="registro_p1">La tarifa de inscripción para participar en el CMEL es de <br><strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.</p>
+        <p class="lang" key="registro_p2">La inscripción se realizará del 8 de octubre de 2018 al 15 de febrero de 2019 en esta misma página.</p>
       </div>
     </div>
   </form>
@@ -437,12 +450,12 @@
       <div class="modal-content">
         <div class="modal-header">
 			<div class="modal-title">
-			<h4 class="text-align: center">Registro Exitoso.</h4>	
-			<p class="text-center">Te esperamos en México</p>
+			<h4 class="text-align: center lang" key="registro_modal_titulo">Registro Exitoso</h4>	
+			<p class="text-center lang" key="registro_modal_p">¡Te esperamos en México!</p>
 			</div>
 		</div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+          <button type="button" class="btn btn-primary lang" key="registro_modal_boton" data-dismiss="modal">Aceptar</button>
         </div>
       </div>
       
