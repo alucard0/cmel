@@ -766,7 +766,10 @@ footer div ul.listaEscuelas li {
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px)
 {
-   section#home div.row.justify-content-end figure{
+  nav.navbar.navbar-light div.navbar-nav a#en.nav-item.nav-link {
+    margin-left: 0;
+  }
+  section#home div.row.justify-content-end figure{
     text-align: right;
   }
   section#home div.row.justify-content-end figure img{
@@ -795,6 +798,9 @@ footer div ul.listaEscuelas li {
   section#welcome hr.azul {
       width: 50%;
       margin: 1rem 0 1rem auto;
+  }
+  section#welcome div.welcomeText span.nombre {
+    font-size: 22px;
   }
 
 
@@ -873,6 +879,9 @@ footer div ul.listaEscuelas li {
 @media (min-width: 768px) and (max-width: 991.98px) {
  html{
     font-size: 20px;
+  }
+  nav.navbar.navbar-light div.navbar-nav a#en.nav-item.nav-link {
+    margin-left: 0;
   }
   section#welcome p.dear {
     font-size: 3em;
