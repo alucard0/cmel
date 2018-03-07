@@ -289,7 +289,7 @@
     <div class="row no-gutters">
       <div class="col-12 col-sm-4">
         <p class="day lang" key="programa_d1_titulo">Día 1</p>
-        <p class="date lang" key="programa_d1_fecha">Miércoles, marzo 14</p>
+        <p class="date lang" key="programa_d1_fecha">Jueves, marzo 14</p>
         <hr class="red">
         <div class="row no-gutters content">
           <div class="col-5 col-sm-3 col-md-5">08:00 09:00</div>
@@ -318,7 +318,7 @@
       </div>
       <div class="col-sm-4">
         <p class="day lang" key="programa_d2_titulo">Día 2</p>
-        <p class="date lang" key="programa_d2_fecha">Jueves, marzo 15</p>
+        <p class="date lang" key="programa_d2_fecha">Viernes, marzo 15</p>
         <hr class="red">
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>
@@ -347,7 +347,7 @@
       </div>
       <div class="col-sm-4">
         <p class="day lang" key="programa_d3_titulo">Día 3</p>
-        <p class="date lang" key="programa_d3_fecha">Viernes, marzo 16</p>
+        <p class="date lang" key="programa_d3_fecha">Sábado, marzo 16</p>
         <hr class="red">
         <div class="row content no-gutters">
           <div class="col-5 col-sm-3 col-md-5">09:00 09:15</div>

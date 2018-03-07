@@ -75,7 +75,7 @@
                 /*Programa*/
                 'programa_titulo':'Program',
                 'programa_d1_titulo':'Day 1',
-                'programa_d1_fecha':'Wednesday, March 14',
+                'programa_d1_fecha':'Thursday, March 14',
                 'programa_d1_sch_1':'Reception',
                 'programa_d1_sch_2':'Opening ceremony',
                 'programa_d1_sch_3':'Keynote presentation: Educational answers and calls',
@@ -89,7 +89,7 @@
                 'programa_d1_sch_11':'Analysis and reflection with experts. Round of questions',
                 
                 'programa_d2_titulo':'Day 2',
-                'programa_d2_fecha':'Thursday, March 15',
+                'programa_d2_fecha':'Friday, March 15',
                 'programa_d2_sch_1':'Prayer. Brief recap',
                 'programa_d2_sch_2':'Keynote presentation: The Educational Community and the    Association',
                 'programa_d2_sch_3':'Break',
@@ -103,7 +103,7 @@
                 'programa_d2_sch_11':'Analysis and reflection with experts. Round of questions',
 
                 'programa_d3_titulo':'Day 3',
-                'programa_d3_fecha':'Friday, March 16',
+                'programa_d3_fecha':'Saturday, March 16',
                 'programa_d3_sch_1':'Prayer. Breif recap',
                 'programa_d3_sch_2':'Keynote Presentation: The Decaration of Lasallian Pedagogy',
                 'programa_d3_sch_3':'Break',
@@ -206,7 +206,7 @@
                 /*Programa*/
                 'programa_titulo':'Programa',
                 'programa_d1_titulo':'Día 1',
-                'programa_d1_fecha':'Miércoles, marzo 14',
+                'programa_d1_fecha':'Jueves, marzo 14',
                 'programa_d1_sch_1':'Recepción',
                 'programa_d1_sch_2':'Acto Inaugural',
                 'programa_d1_sch_3':'Conferencia Magistral: Llamadas y respuestas educativas',
@@ -220,7 +220,7 @@
                 'programa_d1_sch_11':'Análisis y reflexión entre expertos. Sesión de Preguntas',
 
                 'programa_d2_titulo':'Día 2',
-                'programa_d2_fecha':'Thursday, marzo 15',
+                'programa_d2_fecha':'Viernes, marzo 15',
                 'programa_d2_sch_1':'Oración. Recapitulación del día anterior',
                 'programa_d2_sch_2':'Conferencia Magistral: La Comunidad Educativa y la Asociación',
                 'programa_d2_sch_3':'Descanso',
@@ -234,7 +234,7 @@
                 'programa_d2_sch_11':'Análisis y reflexión entre expertos. Sesión de Preguntas',
 
                 'programa_d3_titulo':'Día 3',
-                'programa_d3_fecha':'Viernes, marzo 16',
+                'programa_d3_fecha':'Sábado, marzo 16',
                 'programa_d3_sch_1':'Oración. Recapitulación del día anterior',
                 'programa_d3_sch_2':'Conferencia Magistral: La Declaración de la Pedagogía lasallista',
                 'programa_d3_sch_3':'Descanso',
