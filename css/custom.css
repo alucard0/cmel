@@ -195,7 +195,7 @@ a:focus {
 /*Fin General*/
 /*Menu*/
 nav.navbar.navbar-light{
-  background: #c4c5caf0;
+  background: rgba(196, 197, 202,0.9);
   text-transform: uppercase;
   font-weight: 700;
 }
