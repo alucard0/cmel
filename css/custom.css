@@ -574,10 +574,10 @@ section#program div.content div.col-5{
   font-variant: small-caps;
 }
 section#program div.content div.col-5:nth-child(4n+1){
-  background: #7e92f966;
+  background: rgba(126, 146, 249, 0.4);
 }
 section#program div.content div.col-7:nth-child(4n+2){
-  background: #7e92f966;
+  background: rgba(126, 146, 249, 0.4);
 }
 
 section#program{
