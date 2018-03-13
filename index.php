@@ -10,22 +10,22 @@
     <meta name="description" content="Congreso Mundial de Educación Lasaliana">
     <meta name="author" content="La Salle México">
     <!--Facebook -->
-    <!--
-    <meta property="og:url" content="http://informerector.lasalle.mx"/>
+
+    <meta property="og:url" content="http://lasalle.mx/icle"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="http://informerector.lasalle.mx/images/FACEBOOK_PREVIEW.png" />
-    <meta property="og:title" content="Comunicado de Gestión 2014-2017" />
-    <meta property="og:description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
-    -->
+    <meta property="og:image" content="http://lasalle.mx/icle/images/home/CEMEL_Logo300.png" />
+    <meta property="og:title" content="ICLE 2019" />
+    <meta property="og:description" content="La Educación Lasaliana para el S. XXI">
+
     <!-- Twitter-->
-    <!--
+
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@RectorLaSalle">
+    <meta name="twitter:site" content="@LaSalle_MX">
     <meta name="twitter:creator" content="@LaSalle_MX">
-    <meta name="twitter:title" content="Comunicado de Gestión 2014-2017">
-    <meta name="twitter:description" content="Logros y avances de los últimos 3 años en nuestra Universidad: Docencia, Extensión, Investigación, Identidad y Gestión institucional.">
-    <meta name="twitter:image" content="http://informerector.lasalle.mx/images/TWITTER_CARD.png">
-     -->
+    <meta name="twitter:title" content="ICLE 2019">
+    <meta name="twitter:description" content="La Educación Lasaliana para el S. XXI">
+    <meta name="twitter:image" content="http://lasalle.mx/icle/images/home/CEMEL_Logo300.png">
+
 
     <title class="lang" key="page_title">ICLE 2019 | La Salle</title>
 
