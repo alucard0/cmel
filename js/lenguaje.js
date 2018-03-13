@@ -15,7 +15,7 @@
                 /*Inicio*/
                 'inicio_titulo':'WORLD CONGRESS<br>OF LASALLIAN EDUCATION',
                 'inicio_subtitulo':'Lasallian Education<br>for the 21st Century',
-                'inicio_lema':'La Salle: one heart, one committment, one life.',
+                'inicio_lema':'La Salle: one heart, one commitment, one life.',
                 'inicio_fecha':'From March 14 to 16, 2019',
 
                 /*Carta*/
