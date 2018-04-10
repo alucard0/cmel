@@ -3,6 +3,8 @@
     		'en' :{
     			/*General*/
     			'page_title':'ICLE 2019 | La Salle',
+				'og':'image':"http://lasalle.mx/icle/images/home/CEMEL_300_Ing.png",
+				
     			/*Menu*/
     			'menu_inicio':'Home',
     			'menu_informacion': 'Information',
@@ -417,8 +419,9 @@
                 $('.placeForm').each(function(index, element){
                     $(this).attr("placeholder",arrLang[lang][$(this).attr('key')]);
                 });
-
-                if (lang=='en'){
+				
+				switch (lang){
+				case 'en':	
                     $('[name="cmpNombre"]').rules('add', {
                         messages: {
                             required: "Required",
@@ -442,9 +445,9 @@
                             required: "Choose a district"
                         }
                     });
-                }
-                else//es
-                {
+                break;
+                case 'en':
+                
                     $('[name="cmpNombre"]').rules('add', {
                         messages: {
                             required: "Campo Requerido",
@@ -468,9 +471,34 @@
                             required: "Seleccione una región"
                         }
                     });
-                }
-
-                 
+                break;
+				case 'fr':
+                
+                    $('[name="cmpNombre"]').rules('add', {
+                        messages: {
+                            required: "Requis",
+                            lettersonly: "Caractère invalide"
+                        }
+                    });
+                    $('[name="cmpInstitucion"]').rules('add', {
+                        messages: {
+                            required: "Requis",
+                            lettersonly: "Caractère invalide"
+                        }
+                    });
+                    $('[name="cmpMail"]').rules('add', {
+                        messages: {
+                            required: "Requis",
+                            email: "Entrez un email valide"
+                        }
+                    });
+                    $('[name="cmpRegion"]').rules('add', {
+                        messages: {
+                            required: "Sélectionnez une région"
+                        }
+                    });
+                break;
+				}
 
     		});
     	});

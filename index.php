@@ -13,7 +13,7 @@
 
     <meta property="og:url" content="http://lasalle.mx/icle"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="http://lasalle.mx/icle/images/home/CEMEL_Logo300.png" />
+    <meta property="og:image" class="lang" key="img" content="http://lasalle.mx/icle/images/home/CEMEL_Logo300.png" />
     <meta property="og:title" content="ICLE 2019" />
     <meta property="og:description" content="La Educación Lasaliana para el S. XXI">
 
