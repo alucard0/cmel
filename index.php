@@ -80,7 +80,7 @@
 <section id="home" class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-12 col-sm-6">
-      <figure><img src="images/home/CEMEL_Logo300.png" alt="300" class="img-fluid"></figure>
+      <figure><img src="images/home/CEMEL_Logo300.png" alt="300" class="img-fluid logo" key="inicio_logo"></figure>
     </div>
     <div class="col-12 col-sm-6">
       <h1 class="lang" key="inicio_titulo">Congreso Mundial<br>de Educación Lasaliana</h1>

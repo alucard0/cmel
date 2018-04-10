@@ -3,7 +3,6 @@
     		'en' :{
     			/*General*/
     			'page_title':'ICLE 2019 | La Salle',
-				'og':'image':"http://lasalle.mx/icle/images/home/CEMEL_300_Ing.png",
 				
     			/*Menu*/
     			'menu_inicio':'Home',
@@ -20,6 +19,7 @@
                 'inicio_subtitulo':'Lasallian Education<br>for the 21st Century',
                 'inicio_lema':'La Salle: one heart, one commitment, one life.',
                 'inicio_fecha':'From March 14 to 16, 2019',
+                'inicio_logo':'images/home/CEMEL_300_Ing.png',
 
                 /*Carta*/
                 'carta_titulo':'Dear<br>Lasallians',
@@ -152,6 +152,7 @@
                 'inicio_subtitulo':'La Educación Lasaliana<br>para el S. XXI',
                 'inicio_lema':'La Salle: un corazón, un compromiso, una vida.',
                 'inicio_fecha':'14 al 16 de marzo de 2019',
+                'inicio_logo':'images/home/CEMEL_Logo300.png',
 
                 /*Carta*/
                 'carta_titulo':'Estimados<br>Lasalianos',
@@ -287,10 +288,11 @@
                 'inicio_subtitulo':'L\'éducation lasallienne<br>pour le XXIe siècle.',
                 'inicio_lema':'La Salle : un cœur, un engagement, une vie.',
                 'inicio_fecha':'Du 14 au 16 mars 2019',
+                'inicio_logo':'images/home/CEMEL_Fr.png',
 
                 /*Carta*/
                 'carta_titulo':'Dear<br>Lasallians',
-                'carta_parrafo_1':"L’année 2019 marquera le 300e anniversaire de l'entrée de notre saint fondateur dans la vie éternelle. Cet anniversaire nous permettra de nous retrouver pour célébrer notre héritage lasallien. Ce sera également l’occasion de renouveler notre engagement à travailler pour assurer la viabilité et la vitalité de la mission éducative lasallienne. Enfin, cet anniversaire sera l'occasion d'exprimer notre vision d'un avenir empli d'espoir.",	
+                'carta_parrafo_1':"L’année 2019 marquera le 300 anniversaire de l'entrée de notre saint fondateur dans la vie éternelle. Cet anniversaire nous permettra de nous retrouver pour célébrer notre héritage lasallien. Ce sera également l’occasion de renouveler notre engagement à travailler pour assurer la viabilité et la vitalité de la mission éducative lasallienne. Enfin, cet anniversaire sera l'occasion d'exprimer notre vision d'un avenir empli d'espoir.",	
 				'carta_parrafo_2':"Pour marquer cette célébration, le comité d'organisation a proposé la tenue d'un Congrès Mondial d'Éducation Lasalienne (CMEL300), auquel j'ai l'honneur de vous convier, au nom du supérieur général et de son Conseil.",
                 'carta_parrafo_3':"Le congrès aura lieu dans le contexte de la rédaction d’une Déclaration de la pédagogie lasallienne. Par conséquent, le thème choisi sera <strong>L'éducation lasallienne pour le XXIe siècle.</strong> Cette rencontre académique proposera un espace nous permettant d'analyser les perspectives d’avenir de l'éducation, ainsi que d'échanger des réflexions et des bonnes pratiques.",
                 'carta_parrafo_4':"Nous espérons pouvoir compter sur la présence d'éducateurs issus de tout l'univers lasallien, qui se réuniront à l'<strong>Université La Salle de Mexico, du 14 au 16 mars 2019.</strong>",
@@ -419,85 +421,90 @@
                 $('.placeForm').each(function(index, element){
                     $(this).attr("placeholder",arrLang[lang][$(this).attr('key')]);
                 });
+
+                /*Cambiar place holder*/
+                $('.logo').each(function(index, element){
+                    $(this).attr("src",arrLang[lang][$(this).attr('key')]);
+                });
 				
 				switch (lang){
-				case 'en':	
-                    $('[name="cmpNombre"]').rules('add', {
-                        messages: {
-                            required: "Required",
-                            lettersonly:'Letters Only'
-                        }
-                    });
-                    $('[name="cmpInstitucion"]').rules('add', {
-                        messages: {
-                            required: "Required",
-                            lettersonly:'Letters Only'
-                        }
-                    });
-                    $('[name="cmpMail"]').rules('add', {
-                        messages: {
-                            required: "Required",
-                            email: "Invalid email"
-                        }
-                    });
-                    $('[name="cmpRegion"]').rules('add', {
-                        messages: {
-                            required: "Choose a district"
-                        }
-                    });
-                break;
-                case 'en':
-                
-                    $('[name="cmpNombre"]').rules('add', {
-                        messages: {
-                            required: "Campo Requerido",
-                            lettersonly: "Carácter inválido"
-                        }
-                    });
-                    $('[name="cmpInstitucion"]').rules('add', {
-                        messages: {
-                            required: "Campo Requerido",
-                            lettersonly: "Carácter inválido"
-                        }
-                    });
-                    $('[name="cmpMail"]').rules('add', {
-                        messages: {
-                            required: "Campo Requerido",
-                            email: "Ingresa un email válido"
-                        }
-                    });
-                    $('[name="cmpRegion"]').rules('add', {
-                        messages: {
-                            required: "Seleccione una región"
-                        }
-                    });
-                break;
-				case 'fr':
-                
-                    $('[name="cmpNombre"]').rules('add', {
-                        messages: {
-                            required: "Requis",
-                            lettersonly: "Caractère invalide"
-                        }
-                    });
-                    $('[name="cmpInstitucion"]').rules('add', {
-                        messages: {
-                            required: "Requis",
-                            lettersonly: "Caractère invalide"
-                        }
-                    });
-                    $('[name="cmpMail"]').rules('add', {
-                        messages: {
-                            required: "Requis",
-                            email: "Entrez un email valide"
-                        }
-                    });
-                    $('[name="cmpRegion"]').rules('add', {
-                        messages: {
-                            required: "Sélectionnez une région"
-                        }
-                    });
-                break;
+    				case 'en':	
+                        $('[name="cmpNombre"]').rules('add', {
+                            messages: {
+                                required: "Required",
+                                lettersonly:'Letters Only'
+                            }
+                        });
+                        $('[name="cmpInstitucion"]').rules('add', {
+                            messages: {
+                                required: "Required",
+                                lettersonly:'Letters Only'
+                            }
+                        });
+                        $('[name="cmpMail"]').rules('add', {
+                            messages: {
+                                required: "Required",
+                                email: "Invalid email"
+                            }
+                        });
+                        $('[name="cmpRegion"]').rules('add', {
+                            messages: {
+                                required: "Choose a district"
+                            }
+                        });
+                    break;
+                    case 'es':
+                    
+                        $('[name="cmpNombre"]').rules('add', {
+                            messages: {
+                                required: "Campo Requerido",
+                                lettersonly: "Carácter inválido"
+                            }
+                        });
+                        $('[name="cmpInstitucion"]').rules('add', {
+                            messages: {
+                                required: "Campo Requerido",
+                                lettersonly: "Carácter inválido"
+                            }
+                        });
+                        $('[name="cmpMail"]').rules('add', {
+                            messages: {
+                                required: "Campo Requerido",
+                                email: "Ingresa un email válido"
+                            }
+                        });
+                        $('[name="cmpRegion"]').rules('add', {
+                            messages: {
+                                required: "Seleccione una región"
+                            }
+                        });
+                    break;
+    				case 'fr':
+                    
+                        $('[name="cmpNombre"]').rules('add', {
+                            messages: {
+                                required: "Requis",
+                                lettersonly: "Caractère invalide"
+                            }
+                        });
+                        $('[name="cmpInstitucion"]').rules('add', {
+                            messages: {
+                                required: "Requis",
+                                lettersonly: "Caractère invalide"
+                            }
+                        });
+                        $('[name="cmpMail"]').rules('add', {
+                            messages: {
+                                required: "Requis",
+                                email: "Entrez un email valide"
+                            }
+                        });
+                        $('[name="cmpRegion"]').rules('add', {
+                            messages: {
+                                required: "Sélectionnez une région"
+                            }
+                        });
+                    break;
 				}
 
     		});
