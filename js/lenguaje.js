@@ -11,6 +11,7 @@
                 'menu_registro':'Registration',
                 'menu_en':'en',
                 'menu_es':'sp',
+                'menu_fr':'fr',
 
                 /*Inicio*/
                 'inicio_titulo':'WORLD CONGRESS<br>OF LASALLIAN EDUCATION',
@@ -142,6 +143,7 @@
                 'menu_registro':'Preregistro',
                 'menu_en':'en',
                 'menu_es':'es',
+                'menu_fr':'fr',
 
                 /*Inicio*/
                 'inicio_titulo':'Congreso Mundial<br>de Educación Lasaliana',
@@ -264,7 +266,140 @@
                 'footer_terminos':'Términos y condiciones'
 
 
-    		}
+    		},
+            'fr' :{
+                /*General*/
+                'page_title':'ICLE 2019 | La Salle',
+                /*Menu*/
+                'menu_inicio':'Home',
+                'menu_informacion': 'Information',
+                'menu_comoParticipar':'Comment puis-je participer?',
+                'menu_programa':'Programme',
+                'menu_registro':'Pré-inscription',
+                'menu_en':'en',
+                'menu_es':'sp',
+                'menu_fr':'fr',
+
+                /*Inicio*/
+                'inicio_titulo':'WORLD CONGRESS<br>OF LASALLIAN EDUCATION',
+                'inicio_subtitulo':'L\'éducation lasallienne<br>pour le XXIe siècle.',
+                'inicio_lema':'La Salle: one heart, one commitment, one life.',
+                'inicio_fecha':'From March 14 to 16, 2019',
+
+                /*Carta*/
+                'carta_titulo':'Dear<br>Lasallians',
+                'carta_parrafo_1':'The year 2019 marks the 300th anniversary of our Holy Founder’s entry to eternal life. This anniversary provides an opportunity for us to celebrate our Lasallian heritage, and to renew our commitment to protect the viability and vitality of the Lasallian educational mission through our work. Finally, this anniversary is a fitting occasion to express our trusting vision towards a future full of hope.',
+                'carta_parrafo_2':'To emphasize the meaning of this celebration, and on behalf of the Superior General and the members of his council, I am honored to invite you to the World Congress of Lasallian Education (CMEL300) introduced by the Preparatory Committee.',
+                'carta_parrafo_3':'The Congress will be focused on the path towards the Declaration of Lasallian Pedagogy. Therefore, the selected theme is <strong>Lasallian Education for the 21st Century.</strong> This academic event aims to provide a space for us to analyze the perspectives for the future of education and to share our reflections and good practices.',
+                'carta_parrafo_4':'We hope that educators from around the Lasallian world will join us at <strong>Universidad La Salle Mexico City, from March14 to 16, 2019.</strong>',
+                'carta_parrafo_5':'Experts from the Global Agenda and education will participate in this Congress. Moreover, Lasallian scholars will share with us the insights from their research studies. Also, transformative educational practices will be presented through workshops and a graphic exhibition.',
+                'carta_parrafo_6':'Those who are interested can visit our website: <a href="http://www.lasalle.org/ICLE300" target="_blak" rel="noopener">www.lasalle.org/ICLE300</a>  which provides wide and detailed information about the Congress. Registration will be open also in this site from October 8, 2018 to February 15, 2019. ',
+                'carta_parrafo_7':'Inspired by Saint John Baptist De La Salle, specially by his determination to creatively meet the educational needs of the most vulnerable, let us unite our voices in the World Congress of Lasallian Education to let the world and the young know that we are still determined to build a fairer fraternal future for all. Our association, strong and committed, will give faith to our word of hope. ',
+                'carta_parrafo_8':'Lasallians from PARC, RELAN, RELAF, RELEM y RELAL, we look forward to seeing you in Mexico! Our home is your home!',
+                'carta_parrafo_9':'<span class="nombre">Brother Gustavo Ramírez B., <i>fsc</i></span><br>General Councilor<br>General Coordinator of the Tercentenary celebrations',
+
+                /*ejes tematicos y que voy a encontrar*/
+                'ejes_titulo':'Thematic areas',
+                'ejes_1':'<span class="numeroEje">1</span>Educational<br>challenges',
+                'ejes_2':'<span class="numeroEje">2</span>Lasallian Association and<br>Educational Community',
+                'ejes_3':'<span class="numeroEje">3</span>The Declaration<br>of Lasallian Pedagog',
+                'que_encontrar_titulo':'¿What will I find<br>in the Congress?',
+                'que_encontrar_1':'Keynote<br>presentations',
+                'que_encontrar_2':'Round tables<br>for reflection ',
+                'que_encontrar_3':'Dialogue roundtables',
+                'que_encontrar_4':'Workshops /<br>Presentations',
+                'que_encontrar_5':'Cultural<br>fair',
+                'que_encontrar_6':'Analysis and reflection<br>with experts',
+
+                /*Fechas Importantes*/
+                'congres_titulo':'ABOUT THE CONGRESS',
+                'congres_1':'<span class="titulo">Theme:</span><br>Lasallian education for the 21st Century',
+                'congres_2':'<span class="titulo">Motto:</span><br>La Salle: one heart, one committment, one life',
+                'congres_3':'<span class="titulo">Place:</span><br>Universidad La Salle Mexico City',
+                'congres_4':'<span class="titulo">To:</span><br>Lasallian educators from around the world',
+                'fechas_importantes_titulo':'Important<br>dates',
+                'fechas_importantes_1':'Notice',
+                'fechas_importantes_fecha_1':'March 1, 2018',
+                'fechas_importantes_2':'Reception of presentations / workshops',
+                'fechas_importantes_fecha_2':'From March 26 to September 1,  2018',
+                'fechas_importantes_3':'General<br>Registration',
+                'fechas_importantes_fecha_3':'October 8, 2018',
+                'fechas_importantes_4':'Deadline for<br>Registration',
+                'fechas_importantes_fecha_4':'February 15,  2019',
+                'fechas_importantes_5':'Congress days',
+                'fechas_importantes_fecha_5':'From March 14 to 16 <span class="fecha">, 2019</span>',
+                
+                /*Como participar*/
+                'como_participar_titulo':'¿How can I participate? ',
+                'como_participar_op_1':'Transformative educational experience presentation',
+                'como_participar_descarga_1':'descargables/en/ICLE_EDUCATIONAL_PRACTICES.pdf',
+                'como_participar_op_2':'Research<br>presentations',
+                'como_participar_descarga_2':'descargables/en/ICLE_RESEARCH_PRESENTATIONS.pdf',
+                'como_participar_op_3':'Workshops',
+                'como_participar_descarga_3':'descargables/en/ICLE_WORKSHOPS.pdf',
+                'como_participar_op_4':'Photographic<br>exhibition ',
+                'como_participar_descarga_4':'javascript: window.location.replace(\'descargables/en/outdoorGallery.zip\');',
+
+                /*Programa*/
+                'programa_titulo':'Program',
+                'programa_d1_titulo':'Day 1',
+                'programa_d1_fecha':'Thursday, March 14',
+                'programa_d1_sch_1':'Reception',
+                'programa_d1_sch_2':'Opening ceremony',
+                'programa_d1_sch_3':'Keynote presentation: Educational answers and calls',
+                'programa_d1_sch_4':'Break',
+                'programa_d1_sch_5':'Round table with experts',
+                'programa_d1_sch_6':'Round tables for reflection',
+                'programa_d1_sch_7':'Lunch',
+                'programa_d1_sch_8':'Simultaneous workshops 1 / Presentations 1',
+                'programa_d1_sch_9':'Break',
+                'programa_d1_sch_10':'Simultaneous workshops 2 / Presentations 2',
+                'programa_d1_sch_11':'Analysis and reflection with experts. Round of questions',
+                
+                'programa_d2_titulo':'Day 2',
+                'programa_d2_fecha':'Friday, March 15',
+                'programa_d2_sch_1':'Prayer. Brief recap',
+                'programa_d2_sch_2':'Keynote presentation: The Educational Community and the    Association',
+                'programa_d2_sch_3':'Break',
+                'programa_d2_sch_4':'Round table with experts',
+                'programa_d2_sch_5':'Round tables for reflection ',
+                'programa_d2_sch_6':'Lunch',
+                'programa_d2_sch_7':'Simultaneous workshops 3 / Presentations 3',
+                'programa_d2_sch_8':'Break',
+                'programa_d2_sch_9':'Simultaneous workshops 4 / Presentations 4',
+                'programa_d2_sch_10':'Photo',
+                'programa_d2_sch_11':'Analysis and reflection with experts. Round of questions',
+
+                'programa_d3_titulo':'Day 3',
+                'programa_d3_fecha':'Saturday, March 16',
+                'programa_d3_sch_1':'Prayer. Breif recap',
+                'programa_d3_sch_2':'Keynote Presentation: The Decaration of Lasallian Pedagogy',
+                'programa_d3_sch_3':'Break',
+                'programa_d3_sch_4':'Round table with experts',
+                'programa_d3_sch_5':'Round tables for reflection by Regions, Districts, Sectors or Projects',
+                'programa_d3_sch_6':'Eucharist',
+                'programa_d3_sch_7':'Closure – Artistic Event',
+                'programa_d3_sch_8':'Lunch',
+
+                /*Registro*/
+                'registro_titulo':'Pre-registration',
+                'registro_p1':'The registration fee to participate in CMEL is of <strong>$225 USD</strong> per participant and covers: the activities, transportation and meals within the working agenda.',
+                'registro_p2':'Registration will be open in the same website from October 8, 2018 to February 15, 2019.',
+                'registro_registro_in_1':'Name',
+                'registro_registro_in_2':'Institution',
+                'registro_registro_in_3':'District',
+                'registro_registro_in_4':'Email address',
+                'registro_boton':'Send',
+                'registro_modal_titulo':'Successful registration',
+                'registro_modal_p':'We look forward to seeing you in Mexico!',
+                'registro_modal_boton':'Accept',
+
+                /*Footer*/
+                'footer_direccion':'Benjamin Franklin 45, Col. Condesa, Zip Code 06140, Mexico, Mexico City Phone. +52 (55) 5278 9500',
+                'footer_aviso':'Privacy Notice',
+                'footer_terminos':'Terms and Conditions'
+
+            }
     	};
 
     	$(function(){

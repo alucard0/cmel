@@ -68,6 +68,7 @@
 
         <a class="nav-item nav-link translate lang" id="en" href="#" key="menu_en">EN</a>
         <a class="nav-item nav-link translate lang" id="es" href="#" key="menu_es">ES</a>
+        <a class="nav-item nav-link translate lang" id="fr" href="#" key="menu_fr">FR</a>
         
         
       </div>
