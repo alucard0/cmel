@@ -152,7 +152,7 @@
                 'inicio_subtitulo':'La Educación Lasaliana<br>para el S. XXI',
                 'inicio_lema':'La Salle: un corazón, un compromiso, una vida.',
                 'inicio_fecha':'14 al 16 de marzo de 2019',
-                'inicio_logo':'images/home/CEMEL_Logo300.png',
+                'inicio_logo':'images/home/CEMEL_300_Esp.png',
 
                 /*Carta*/
                 'carta_titulo':'Estimados<br>Lasalianos',
@@ -288,7 +288,7 @@
                 'inicio_subtitulo':'L\'éducation lasallienne<br>pour le XXIe siècle.',
                 'inicio_lema':'La Salle : un cœur, un engagement, une vie.',
                 'inicio_fecha':'Du 14 au 16 mars 2019',
-                'inicio_logo':'images/home/CEMEL_Fr.png',
+                'inicio_logo':'images/home/CEMEL_300_Fr.png',
 
                 /*Carta*/
                 'carta_titulo':'Dear<br>Lasallians',
