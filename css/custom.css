@@ -794,6 +794,7 @@ footer p.hashtag{
 }
 footer div.legales{
   border-top: 2px #cccccc solid;
+  background: rgba(19, 31, 42, 0.6);
 }
 
 p.aviso, p.terminos{
@@ -808,39 +809,17 @@ p.aviso.active,p.terminos.active{
 }
 div.resumenAviso p, div.resumenTerminos p{
   text-align: left;
+  font-size: 16px;
 }
 
 .bgGray{
   background: gray;
   padding-top: 1%;
 }
-div.redesSociales figure
-{
-  display: inline-block;
-  padding: 2.2%;
-}
-div.redesSociales p
-{
-  color: #fff;
-  text-align: left;
-}
-span.textoValor{
-  font-size: 1.5em;
-  color: gray;
-  font-weight: 800;
-}
 
-ul.listaEscuelas a
-{
-  color:#fff;
-  font-size: 0.8em;
-}
-footer div ul.listaEscuelas {
-    list-style-image: url('../images/footer/icon_whiteArrow.png');
-}
-footer div ul.listaEscuelas li {
-    margin-left: 25px
-}
+/*Redes Sociales*/
+
+
 
 /*Fin Footer*/
 /*Media Queries*/

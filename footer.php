@@ -5,6 +5,29 @@
 */
 ?>
 	<footer class="container-fluid bannerFooter">
+		<div class="row justify-content-center d-sm-none">
+			<div class="col col-sm-1">
+				<a href="https://www.facebook.com/lasalleorg/" target="_blank" rel="noopener">
+					<figure>
+						<img src="images/footer/300_Redes_Face.png" alt="" class="img-fluid">
+					</figure>
+				</a>
+			</div>
+			<div class="col col-sm-1">
+				<a href="https://twitter.com/lasalleorg" target="_blank" rel="noopener">
+					<figure>
+						<img src="images/footer/300_Redes_Tw.png" alt="" class="img-fluid">
+					</figure>
+				</a>
+			</div>
+			<div class="col col-sm-1">
+				<a href="https://www.instagram.com/lasalleorg/" target="_blank" rel="noopener">
+					<figure>
+						<img src="images/footer/300_Redes_Inst.png" alt="" class="img-fluid">
+					</figure>
+				</a>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-6 col-sm-3">
 				<figure class="text-center"><img src="images/footer/CEMEL_SignumFidei.png" class="img-fluid" alt=""></figure>
@@ -22,6 +45,32 @@
 			<div class="col-6 col-sm-3">
 				<p class="hashtag">#300LaSalle</p>
 			</div>
+
+		</div>
+		<div class="row justify-content-center d-none d-sm-flex">
+			<div class="col col-sm-1">
+				<a href="https://www.facebook.com/lasalleorg/" target="_blank" rel="noopener">
+					<figure>
+						<img src="images/footer/300_Redes_Face.png" alt="" class="img-fluid">
+					</figure>
+				</a>
+			</div>
+			<div class="col col-sm-1">
+				<a href="https://twitter.com/lasalleorg" target="_blank" rel="noopener">
+					<figure>
+						<img src="images/footer/300_Redes_Tw.png" alt="" class="img-fluid">
+					</figure>
+				</a>
+			</div>
+			<div class="col col-sm-1">
+				<a href="https://www.instagram.com/lasalleorg/" target="_blank" rel="noopener">
+					<figure>
+						<img src="images/footer/300_Redes_Inst.png" alt="" class="img-fluid">
+					</figure>
+				</a>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-12">
 				<p class="lang" key="footer_direccion">Benjamín Franklin 45, Col. Condesa, C.P. 06140, México, Ciudad de México Tel. +52 (55) 5278 9500</p>
 			</div>
@@ -33,7 +82,7 @@
 			<div class="col col-sm-6 col-xs-6">
 				<p class="terminos lang" key="footer_terminos">Términos y condiciones</p>
 			</div>
-			<div class="col col-sm-12 col-xs-12 resumenAviso">
+			<div class="col col-sm-10 col-xs-10 resumenAviso">
 				<p>
 					La Universidad la Salle, A.C., ubicada en Benjamín Franklin 45 Col. Condesa, C.P. 06140, México Ciudad de México, le informa que sus datos personales y datos personales sensibles, se utilizarán para identificación, operación, administración y aquellos tratamientos definidos en la Política de Privacidad, que sean necesarios para la prestación de los servicios académicos y administrativos en el Sistema Educativo de las Universidades La Salle.</p>
 
@@ -43,7 +92,7 @@
 
 					<p>Si el titular proporciona sus datos personales significa que ha leído, entendido y aceptado los términos antes expuestos. <a href="http://www.lasalle.mx/privacidad" target="_blank"> Leer más</a></p>
 			</div>
-			<div class="col-sm-12 col-xs-12 resumenTerminos">
+			<div class="col col-sm-10 col-xs-10 resumenTerminos">
 				<p>El uso por parte de cualquier persona (en adelante el USUARIO) del sitio web cuya dirección electrónica es: <a href="www.lasalle.mx"> www.lasalle.mx</a>, así como de los subsitios web que se deriven o estén sustentados en dicho sitio web, o de los cuales también sea titular la Universidad La Salle A. C. (en adelante el SITIO), constituye la aceptación y acuerdo pleno e incondicional por parte del USUARIO con la Universidad La Salle A. C. (en adelante UNIVERSIDAD LA SALLE), en relación a los presentes Términos y Condiciones de Uso del Sitio y subsitios. <a href="http://www.lasalle.mx/terminos-y-condiciones/" target="_blank">Leer más</a></p>
 			</div>
 	</footer>
