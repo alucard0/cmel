@@ -7,10 +7,10 @@
 	<footer class="container-fluid bannerFooter">
 		<div class="row">
 			<div class="col-6 col-sm-3">
-				<p class="hashtag">#300LaSalle</p>
+				<figure class="text-center"><img src="images/footer/CEMEL_SignumFidei.png" class="img-fluid" alt=""></figure>
 			</div>
 			<div class="col-6 col-sm-3">
-				<figure class="text-center"><img src="images/footer/CEMEL_SignumFidei.png" class="img-fluid" alt=""></figure>
+				<a href="http://www.lasalle.org/" target="_blank" rel="noopener"><figure><img src="images/footer/redlasalle.png" class="img-fluid" alt=""></figure></a>
 			</div>
 			<div class="col-6 col-sm-3">
 				<a href="http://www.lasalle.mx/" target="_blank" rel="noopener">
@@ -20,7 +20,7 @@
 				</a>
 			</div>
 			<div class="col-6 col-sm-3">
-				<a href="http://www.lasalle.org/" target="_blank" rel="noopener"><figure><img src="images/footer/redlasalle.png" class="img-fluid" alt=""></figure></a>
+				<p class="hashtag">#300LaSalle</p>
 			</div>
 			<div class="col-12">
 				<p class="lang" key="footer_direccion">Benjamín Franklin 45, Col. Condesa, C.P. 06140, México, Ciudad de México Tel. +52 (55) 5278 9500</p>
