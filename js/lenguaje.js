@@ -251,7 +251,7 @@
 
                 /*Registro*/
                 'registro_titulo':'Preregistro',
-                'registro_p1':'La tarifa de inscripción para participar en el CMEL es de <strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.',
+                'registro_p1':'La tarifa de inscripción para participar en el CMEL es de <br><strong>US $225</strong> por persona. La tarifa incluye las actividades, transportación y alimentos durante la agenda de trabajo.',
                 'registro_p2':'La inscripción se realizará del 8 de octubre de 2018 al 15 de febrero de 2019 en esta misma página.',
                 'registro_registro_in_1':'Nombre',
                 'registro_registro_val_1':'Campo Requerido',
