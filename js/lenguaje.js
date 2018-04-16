@@ -342,7 +342,7 @@
                 'como_participar_op_3':'Ateliers',
                 'como_participar_descarga_3':'descargables/en/ICLE_WORKSHOPS.pdf',
                 'como_participar_op_4':'Exposition<br>photographique ',
-                'como_participar_descarga_4':'javascript: window.location.replace(\'descargables/en/outdoorGallery.zip\');',
+                'como_participar_descarga_4':'javascript: window.location.replace(\'descargables/fr/expositionGalerie.zip\');',
 
                 /*Programa*/
                 'programa_titulo':'Programme',
