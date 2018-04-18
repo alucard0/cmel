@@ -336,11 +336,11 @@
                 /*Como participar*/
                 'como_participar_titulo':'Comment puis-je participer? ',
                 'como_participar_op_1':"Conférence sur l'expérience<br>éducative transformatrice",
-                'como_participar_descarga_1':'descargables/en/ICLE_EDUCATIONAL_PRACTICES.pdf',
+                'como_participar_descarga_1':'descargables/fr/ICLE_CONVOCATORIA PONENCIAS EDUCATIVAS_FRANCES.pdf',
                 'como_participar_op_2':'Exposés de travaux<br>de recherche ',
-                'como_participar_descarga_2':'descargables/en/ICLE_RESEARCH_PRESENTATIONS.pdf',
+                'como_participar_descarga_2':'descargables/fr/ICLE_CONVOCATORIA PONENCIAS INVESTIVACION_FRANCES.pdf',
                 'como_participar_op_3':'Ateliers',
-                'como_participar_descarga_3':'descargables/en/ICLE_WORKSHOPS.pdf',
+                'como_participar_descarga_3':'descargables/fr/ICLE_CONVOCATORIA TALLERES_FRANCES.pdf',
                 'como_participar_op_4':'Exposition<br>photographique ',
                 'como_participar_descarga_4':'javascript: window.location.replace(\'descargables/fr/expositionGalerie.zip\');',
 
