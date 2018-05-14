@@ -5,12 +5,12 @@ jQuery.validator.setDefaults({
 
 //Validador de solo letras (Incluye caracteres especiales de otros idiomas)
 $.validator.addMethod( "lettersonly", function( value, element ) {
-return this.optional( element ) || /^[a-z.áéíóúñâêîôûäëïöüàèìòùçæøåğş']+$/i.test( value );
+return this.optional( element ) || /^[a-z .áéíóúñâêîôûäëïöüàèìòùçæøåğşñ']+$/i.test( value );
 }, "Letters only please" );
 
 //Redefinicion Del Validador de e-mail
 $.validator.methods.email = function( value, element ) {
-  return this.optional( element ) || /^[a-z 0-9.áéíóúñâêîôûäëïöüàèìòùçæøåğş'*+-/=?_{|}~]+@[a-z 0-9.áéíóúñâêîôûäëïöüàèìòùçæøåğş'*+-/=?_{|}~]+.[a-z 0-9]+$/i.test( value );
+  return this.optional( element ) || /^[a-z 0-9.áéíóúñâêîôûäëïöüàèìòùçæøåğşñ'*+-/=?_{|}~]+@[a-z 0-9.áéíóúñâêîôûäëïöüàèìòùçæøåğş'*+-/=?_{|}~]+.[a-z 0-9]+$/i.test( value );
 }
 
 $( "#registroForm" ).validate({
