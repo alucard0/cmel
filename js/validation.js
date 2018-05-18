@@ -108,7 +108,7 @@ jQuery(function($){
 			success: function (data) {
 				$('#Descargar').disabled = false;
 				console.log('Success');
-				window.location.href = "index.xlsx"; 
+				window.location.href = "icle.xlsx"; 
 			},	
 		});
 	});

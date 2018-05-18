@@ -57,7 +57,7 @@
 
 			
 			//Guardar Archivo de Excel
-			$ArcivoExcel->guardar_archivo('../index.xlsx');
+			$ArcivoExcel->guardar_archivo('../icle.xlsx');
 			
 			/* liberar el conjunto de resultados */
 			mysqli_free_result($query);
