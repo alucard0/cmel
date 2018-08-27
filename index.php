@@ -188,7 +188,7 @@
           <p class="info lang" key="fechas_importantes_2">Recepción de taller<br>/ ponencia</p>
         </div>
         <div class="col-6 col-sm-6">
-          <p class="numeroFecha dosFechas lang" key="fechas_importantes_fecha_2">26 <span class="fecha">marzo 2018  al</span><br>1 <span class="fecha">septiembre 2018</span></p>
+          <p class="numeroFecha dosFechas lang" key="fechas_importantes_fecha_2">26 <span class="fecha">marzo 2018  al</span><br>2 <span class="fecha">octubre 2018</span></p>
         </div>
 
 
